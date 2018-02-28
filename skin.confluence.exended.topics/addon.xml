@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon 
+    id="skin.confluence.exended.topics" 
+    version="3.1.43.140" 
+    name="[COLOR blue]Confluence Extended Topics[/COLOR]" 
+    provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
+        <import addon="script.skinshortcuts" version="1.0.10"/>
+        <import addon="script.skin.helper.service" version="1.0.10"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+        <import addon="script.skin.helper.widgets" version="1.0.10"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+    </requires>
+    <extension 
+        point="xbmc.gui.skin" 
+        debugging="false" 
+        effectslowdown="1.0">
+        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+    </extension>
+	 <extension point="xbmc.python.pluginsource" library="skin_topics/update.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU General Public License version 2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/skin.confluence-extended.git</source>
+		<news>Updated language files</news>
+			<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
