@@ -1,0 +1,1770 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+<addon id="metadata.common.allmusic.com"
+       name="AllMusic Scraper Library"
+        version="3.2.0"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.library"
+             library="allmusic.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="bg">Библиотека за сваляне на музикална инф. от AllMusic</summary>
+    <summary lang="en">AllMusic Music Scraper Library</summary>
+    <summary lang="de">Musik-Scraper für AllMusic.com</summary>
+    <summary lang="es">Scraper de música de AllMusic</summary>
+    <summary lang="fi">AllMusic musiikkitietojen lataajan kirjasto</summary>
+    <summary lang="fr">Scraper AllMusic pour la musique</summary>
+    <summary lang="hu">AllMusic zenei adat leolvasó</summary>
+    <summary lang="nl">AllMusic-scraperfuncties</summary>
+    <summary lang="pl">Scraper muzyki AllMusic</summary>
+    <summary lang="pt">Scraper de música AllMusic</summary>
+    <summary lang="ro">Bibliotecă catalog de muzică AllMusic</summary>
+    <summary lang="ru">Музыкальная Информация AllMusic</summary>
+    <summary lang="se">Skrapa för AllMusic.com</summary>
+    <summary lang="zh">AllMusic音乐刮削器代码库</summary>
+    <description lang="bg">Извлича инф. за музикални файлове от www.allmusic.com</description>
+    <description lang="en">Download Music information from www.allmusic.com</description>
+    <description lang="de">Downloade Musik Informationen von www.allmusic.com</description>
+    <description lang="es">Descarga información musical de www.allmusic.com</description>
+    <description lang="fi">Lataa musiikkitietoja osoitteesta www.allmusic.com</description>
+    <description lang="fr">Télécharger les infos musicales depuis www.allmusic.com</description>
+    <description lang="hu">Zene információk letöltése a www.allmusic.com webhelyről</description>
+    <description lang="nl">Muziekinformatie ophalen van www.allmusic.com</description>
+    <description lang="pl">Pobieraj informacje o muzyce z www.allmusic.com</description>
+    <description lang="pt">Descarregar informação de música de www.allmusic.com</description>
+    <description lang="ro">Descărcați informații muzică de pe www.allmusic.com</description>
+    <description lang="ru">Загружать информацию о Музыке с www.allmusic.com</description>
+    <description lang="se">Ladda ner musikinformation från www.allmusic.com</description>
+    <description lang="zh">从www.allmusic.com下载音乐信息</description>
+  </extension>
+</addon>
+
+<addon id="metadata.common.fanart.tv"
+       name="fanart.tv Scraper Library"
+       version="3.3.0"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.library"
+             library="fanarttv.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="bg">Библиотека за сваляне на инф. от fanart.tv</summary>
+    <summary lang="en">fanart.tv Scraper Library</summary>
+    <summary lang="de">Scraper für Hintergründe von fanart.tv</summary>
+    <summary lang="es">Scraper de fanart.tv</summary>
+    <summary lang="fi">fanart.tv taustakuvalataajan kirjasto</summary>
+    <summary lang="fr">Scraper fanart.tv</summary>
+    <summary lang="hu">fanart.tv leolvasó-könyvtár</summary>
+    <summary lang="nl">fanart.tv-scraperfuncties</summary>
+    <summary lang="pl">Scraper biblioteki fanart.tv</summary>
+    <summary lang="pt">Biblioteca de fundos fanart.tv</summary>
+    <summary lang="ru">Обработчик Фоновых изображений с fanart.tv</summary>
+    <summary lang="se">Skrapa för fanart.tv</summary>
+    <summary lang="zh">fanart.tv刮削器代码库</summary>
+    <description lang="bg">Сваля декорации от www.fanart.tv.com</description>
+    <description lang="en">Download backdrops from www.fanart.tv.com</description>
+    <description lang="de">Downloade Hintergründe von www.fanart.tv.com</description>
+    <description lang="es">Descarga fanart y fotos de artistas de www.fanart.tv.com</description>
+    <description lang="fi">Lataa taustakuvia osoitteesta www.fanart.tv.com</description>
+    <description lang="fr">Télécharge les backdrops depuis www.htbackgrops.com</description>
+    <description lang="hu">Fanartképek letöltése www.fanart.tv.com webhelyről</description>
+    <description lang="nl">Achtergronden ophalen van www.fanart.tv.com</description>
+    <description lang="pl">Pobieraj tła z www.fanart.tv.com</description>
+    <description lang="pt">Descarregar fundos de www.fanart.tv.com</description>
+    <description lang="ru">Загружать фоновые изображения с www.fanart.tv.com</description>
+    <description lang="se">Ladda ner bakgrundsbilder från www.fanart.tv.com</description>
+    <description lang="zh">从www.fanart.tv.com下载背景图</description>
+  </extension>
+</addon>
+
+<addon id="metadata.common.imdb.com"
+       name="IMDB Scraper Library"
+       version="3.0.3"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.library"
+             library="imdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="bg">Библиотека за сваляне на инф. от IMDB</summary>
+    <summary lang="en">IMDB Scraper Library</summary>
+    <summary lang="fi">IMDB elokuvatietojen lataaja</summary>
+    <summary lang="hu">IMDB leolvasó-könyvtár</summary>
+    <summary lang="kr">IMDB 스크래퍼 라이브러리</summary>
+    <summary lang="nl">IMDB Scraper Bibliotheek</summary>
+    <summary lang="pl">Scraper IMDb</summary>
+    <summary lang="pt">Scraper de filmes IMDb</summary>
+    <summary lang="se">Skrapa för IMDB</summary>
+    <description lang="bg">Сваля информация за филми от www.imdb.com</description>
+    <description lang="en">Download Movie information from www.imdb.com</description>
+    <description lang="fi">Lataa elokuvatietoja osoitteesta www.imdb.com</description>
+    <description lang="hu">Film információk letöltése a www.imdb.com webhelyről</description>
+    <description lang="kr">www.imdb.com 에서 영화 정보 다운로드</description>
+    <description lang="nl">Download film informatie van www.imdb.com</description>
+    <description lang="pl">Pobieraj informacje o filmach z www.imdb.com</description>
+    <description lang="pt">Descarregar informação de filmes de www.imdb.com</description>
+    <description lang="se">Ladda ner filminformation från www.imdb.com</description>
+  </extension>
+</addon>
+
+<addon id="metadata.common.themoviedb.org"
+       name="The Movie Database Scraper Library"
+       version="3.1.2"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.library"
+             library="tmdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary lang="bg">Библиотека за сваляне на инф. от TMDb</summary>
+    <summary lang="en">TMDb Scraper Library</summary>
+    <summary lang="es">Scraper de peliculas de TMDb</summary>
+    <summary lang="fi">TMDb elokuvatietojen lataajan kirjasto</summary>
+    <summary lang="fr">Scraper TMDb</summary>
+    <summary lang="hu">TMDb leolvasó-könyvtár</summary>
+    <summary lang="nl">TMDb-scraperfuncties</summary>
+    <summary lang="pl">Scraper biblioteki TMDb</summary>
+    <summary lang="pt">Scraper de filmes TMDb</summary>
+    <summary lang="ro">Bibliotecă catalog TMDb</summary>
+    <summary lang="ru">Обработчик для TMDb</summary>
+    <summary lang="se">Skrapebibliotek för TMDb</summary>
+    <summary lang="zh">TMDb刮削器代码库</summary>
+    <description lang="bg">Сваля миниатюри и fanarts от www.themoviedb.org</description>
+    <description lang="en">Download thumbs and fanarts from www.themoviedb.org</description>
+    <description lang="es">Descarga posters y fanart de www.themoviedb.org</description>
+    <description lang="fi">Lataa pienoiskuvia ja fanitaidetta www.themoviedb.org -sivustolta</description>
+    <description lang="fr">Télécharge vignettes et backdrops depuis www.themoviedb.org</description>
+    <description lang="hu">Bélyeg- és fanartképek letöltése a www.themoviedb.org webhelyről</description>
+    <description lang="nl">Miniaturen en fanart ophalen van www.themoviedb.org</description>
+    <description lang="pl">Pobieraj ikony i fanarty z www.themoviedb.org</description>
+    <description lang="pt">Descarregar informação de filmes de www.themoviedb.org</description>
+    <description lang="ro">Descărcați miniaturi și imagini realizate de fani de pe www.themoviedb.org</description>
+    <description lang="ru">Загружать миниатюры и фанарт с www.themoviedb.org</description>
+    <description lang="se">Ladda ner miniatyrer och fanart från www.themoviedb.org</description>
+    <description lang="zh">从www.themoviedb.org下载海报和同人画</description>
+  </extension>
+</addon>
+
+<addon id="metadata.themoviedb.org"
+       name="The Movie Database"
+       version="5.1.2"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="metadata.common.imdb.com" version="2.9.2"/>
+    <import addon="metadata.common.themoviedb.org" version="3.1.0"/>
+    <import addon="plugin.video.youtube" version="4.4.10" optional="true"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.movies"
+             language="en"
+             library="tmdb.xml"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af">TMDB Fliek Skraper</summary>
+    <summary lang="be">TMDB Movie Scraper</summary>
+    <summary lang="bg">Сваля инф. за филми от TMDB</summary>
+    <summary lang="ca">Arreplegador de pel·lícules TMDB</summary>
+    <summary lang="cs">Zdroj zisku dat k filmům TMDB</summary>
+    <summary lang="cy">Crafwr Ffilmiau TMDB</summary>
+    <summary lang="da">TMDB Scraper til Film</summary>
+    <summary lang="de">TMDB Filmscraper</summary>
+    <summary lang="el">Scraper Ταινιών του TMDb</summary>
+    <summary lang="en">TMDB Movie Scraper</summary>
+    <summary lang="en_NZ">TMDB Movie Scraper</summary>
+    <summary lang="en_US">TMDB Movie Scraper</summary>
+    <summary lang="es">Scraper de películas de TheMovieDB</summary>
+    <summary lang="es_AR">Scraper de Películas de TheMovieDB</summary>
+    <summary lang="es_MX">Scraper de Películas TMDb</summary>
+    <summary lang="et">TMDB Filmi kaabits</summary>
+    <summary lang="fi">TMDB elokuvatietojen lataaja</summary>
+    <summary lang="fr">Collecteur de Films TMDB</summary>
+    <summary lang="fr_CA">Extracteur de films TMDB</summary>
+    <summary lang="gl">Scraper de Filme de TMDB</summary>
+    <summary lang="he">TMDB סקרייפר סרטים</summary>
+    <summary lang="hr">TMDB filmski sakupljač informacija</summary>
+    <summary lang="hu">TMDB filmadat leolvasó</summary>
+    <summary lang="id">Pengais Film TMDB</summary>
+    <summary lang="is">TMDB Skafa fyrir Kvikmyndir</summary>
+    <summary lang="it">Ricercatore per TMDB Movie</summary>
+    <summary lang="ja">TMDB映画のスクレーパー</summary>
+    <summary lang="ko">TMDB 영화 정보수집기</summary>
+    <summary lang="lt">TMDB filmų skreperis</summary>
+    <summary lang="mk">TMDB инфо за филмови</summary>
+    <summary lang="ml">മൂവി ഡി ബി, വിവരശേഖരം</summary>
+    <summary lang="ms">Pengikis Cakera TMDB</summary>
+    <summary lang="my">TMDB Movie Scraper</summary>
+    <summary lang="nl">TMDb-filmscraper</summary>
+    <summary lang="no">TMDB-skraper</summary>
+    <summary lang="pl">Ekstraktor filmowy TMDB</summary>
+    <summary lang="pt">Colector de filmes TMDb</summary>
+    <summary lang="pt_BR">Scraper de Filmes TMDb</summary>
+    <summary lang="ro">Scraper de filme TMDb</summary>
+    <summary lang="ru">Инфоресурс на базе TMDB</summary>
+    <summary lang="se">Skrapa för TMDb</summary>
+    <summary lang="sk">TheMovieDB filmový sťahovač</summary>
+    <summary lang="sl">Ponudnik informacij o filmih TMDB</summary>
+    <summary lang="sv">TMDB Filmskrapa</summary>
+    <summary lang="ta_IN">LastFM நிகழ்படம் சுரண்டி</summary>
+    <summary lang="th">ตัวรับข้อมูลภาพยนต์ TMDB</summary>
+    <summary lang="tr">TMDB Film Scraper</summary>
+    <summary lang="uk">TMDB — джерело інформації про фільми</summary>
+    <summary lang="vi">Trình lấy dữ liệu Phim từ TMDB</summary>
+    <summary lang="zh">TMDB 电影刮削器</summary>
+    <summary lang="zh_TW">TMDB 電影搜括器</summary>
+    <description lang="af">themoviedb.org is 'n verniet en oop fliek databasis. Dit is totaal gebruiker gedryf deur mense soos jy. TMDB word huidiglik deur miljoene mense elke maand gebruik, en met hulle kragtige API word dit ook deur baie gewilde media sentrums soos Kodi gebruik om Fliek Metadata, Plakkate en Ondersteunerkuns te onttrek om die gebruiker se ondervinding te verryk.</description>
+    <description lang="be">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="bg">themoviedb.org е безплатна и отворена филмова база данни. Задвижва се изцяло от потребителите си, от хора като вас. Милиони хора по света всеки месец ползват TMDb. Благодарение на многофункционално API може да се ползва от най-различни и популярни медийни центрове като Kodi, които извличат метаданни, постери и фанарт за филми с цел за красивото оформяне на интерфейса.</description>
+    <description lang="ca">themoviedb.org és una base de dades oberta i lliure. Es manté completament per usuaris, per gent com tu. TMDb s'utilitza actualment per milions de persones cada mes i amb la seva potent API també és utilitzada per molts centre media populas com l'Kodi per obtenir les meta-dades de pel·lícules, pósters i fanart per enriquir l'experiència d'usuari.</description>
+    <description lang="cs">themoviedb.org je otevřená a svobodná databáze filmů. Je řízena uživateli, tedy lidmi jako vy. TMDB je každý měsíc používána milióny lidí a se svým výborným API je také používano mnoha populárními mediálními centry jako je Kodi, k získávání metadat, plagátů a fanartu filmů pro obohacení uživatelského zážitku.</description>
+    <description lang="cy">Mae themoviedb.org yn gronfa ddata ffilmiau rhydd ac agored. Mae'n cael ei yrru gan ddefnyddwyr fel chi. Mae TMDb yn cael ei ddefnyddio gan filiynau o bobl bob mis a gyda'i API pwerus, mae'n cael ei ddefnyddio gan lawer o'r canolfannau cyfrwng fel Kodi i estyn metadata ffilmiau, posteri a chelf er mwyn cyfoethogi profiad defnyddwyr.</description>
+    <description lang="da">themoviedb.org er en fri og åben filmdatabase. Den er helt og aldeles brugerdrevet af folk som dig. TMDb bruges i dag af millioner af mennesker hver måned, og med deres kraftfulde API er den også brugt af mange populære mediecentre såsom Kodi til at hente metadata, plakater og fankunst til film, for at berige brugerens oplevelse.</description>
+    <description lang="de">TheMovieDB.org ist eine freie und offene Filmdatenbank. Sie wird von Benutzern wie dir angetrieben. TheMovieDB wird zur Zeit von millionen Nutzern jeden Monat genutzt und dank ihrer mächtigen API ist sie auch von vielen Media-Center, wie z.B. Kodi, implementiert, um Film-Metadaten, -Poster und -Fanarts zu beziehen, die das Benutzererlebnis verbessern.</description>
+    <description lang="el">Το themoviedb.org είναι μία δωρεάν και ανοικτή βάση δεδομένων ταινιών. Διαχειρίζεται πλήρως από ανθρώπους σαν και εσάς. Το TMDb χρησιμοποιείται από εκατομμύρια ανθρώπους κάθε μήνα, και με το πανίσχυρο API τους, χρησιμοποιείται και από πολλά δημοφιλή κέντρα πολυμέσων όπως το Kodi για να λαμβάνουν μετα-δεδομένα Ταινιών, Αφίσες και Fanart για εμπλουτισμό της εμπειρίας του χρήστη.</description>
+    <description lang="en">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="en_NZ">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="en_US">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="es">themovieDB.org es una base de datos de películas gratuita y abierta. Es una página web que se basa en contenido subido por los usuarios. TMDb es usada diariamente por mucha gente gracias a su API, que es usada por más programas aparte de Kodi para descargar información de películas así como Posters o Fanart (Fondos de escritorio basados en películas usados en distintos skins) para enriquecer la experiencia de usar Kodi.</description>
+    <description lang="es_AR">themovieDB.org es una base de datos de películas gratuita y abierta. Está  formada con contenido subido por usuarios como vos. TMDb es actualmente utilizada por millones de personas cada mes y, gracias a su poderosa API, es usada por muchos programas populares como Kodi para descargar Información de Películas, Posters y Fanart para enriquecer la experiencia de usar Kodi.</description>
+    <description lang="es_MX">themoviedb.org es una base de datos de películas gratis y abierta. Es completamente manejada por usuarios y personas como tu. Actualmente TMDb es usada por millones de personas cada mes, y dado a su poderosa API, es usada también por varios media centers populares como Kodi para obtener Metada de Películas, Posters y Fanarts, enriqueciendo de esta manera la experiencia del usuario.</description>
+    <description lang="et">themoviedb.org on tasuta ja vaba juurdepääsuga filmide andmebaas.See on täielikult koostatud sinu sarnaste inimeste poolt. TMDb on hetkel igapäevaselt kasutuses miljonite inimeste poolt ja seda kasutavad paljud populaarsed meediakeskused, nagu ka Kodi, filmiandmete, fännikunsti ja posterite leidmiseks.</description>
+    <description lang="fi">themoviedb.org on vapaa ja avoin elokuvatietokanta. Se on täysin käyttäjien ylläpitämä. TMDb:a käyttää miljoonat ihmiset joka kuukausi, sitä käytetään käyttäjäkokemuksen rikastuttamiseen monissa muissakin suosituissa Kodi:n kaltaisissa ohjelmissa lataamalla elokuvien tietoja, julisteita ja fanitaidetta.</description>
+    <description lang="fr">themoviedb.org est une base de données gratuite et libre d'accès de films. Elle est totalement gérée par les utilisateurs. TMDb est actuellement utilisée par des millions de personnes chaque mois et, grâce à ses puissantes fonctions et routines, elle est également utilisée par de nombreux Media Centers populaires comme Kodi aux fins de récupération des Métadonnées, Posters et Fanarts des films en vue d'améliorer l'expérience de l'utilisateur.</description>
+    <description lang="fr_CA">themoviedb.org est une base de données libre et ouverte. Elle est complètement gérée par des gens comme vous. TMDb est actuellement utilisée par des millions de personnes chaque mois et avec son API puissante, elle est également utilisée par de nombreux centres multimédias populaires comme Kodi pour récupérer les métadonnées des films, les affiches et le fanart afin d'enrichir l'expérience de l'utilisateur.</description>
+    <description lang="gl">themoviedb.org é una base de datos sobre filmes libre e aberta, impulsada por xente coma ti. Na actualidade TMDb é usada por millóns de persoas todos os meses, e grazas ó seu potente API, usado por algúns dos centros multimedia máis populares como Kodi para obter a información dos filmes, Posters e Fanart e así mellorar a experiencia do usuario.</description>
+    <description lang="he">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="hr">themoviedb.org je besplatna i otvorena baza filmskih podataka. TMDb trenutno koriste milijuni ljudi svaki mjesec uz pomoću njegovog snažnog API-ja, isto tako se koristi u mnogim popularnim medijskim centrima poput Kodi-a, kako bi mogli sakupljati informacije o filmovima, filmske postere, omote filmova i na kraju obogatili korisničko iskustvo.</description>
+    <description lang="hu">A themoviedb.org egy ingyenes és nyílt filmadatbázis. Teljes egészében olyan felhasználók töltik fel, mint például Te. A TMDb-t havonta emberek milliói használják és a hatékony API-n keresztül számos népszerű média center is, mint például az Kodi a filmadatok, poszterek, fanartképek letöltésére.</description>
+    <description lang="id">themoviedb.org adalah database film yang gratis dan terbuka. Ini benar-benar digerakkan oleh orang-orang seperti Anda. TMDb saat ini digunakan oleh jutaan orang setiap bulannya dan dengan APInya yang digdaya, juga digunakan oleh beberapa pusat media seperti Kodi untuk mengambil Metadata Film, Poster dan Fanart untuk menperkaya pengalaman penggunanya.</description>
+    <description lang="is">themoviedb.org er frír og opinn gagnagrunnur. Hann er algjörlega rekinn af fólki eins og þér. TMBd er notaður af milljónum manna í hverjum mánuði og með öflugum forritaskilum þeirra (API), er hann líka notaður af mörgum vinsælum heimabíókerfum eins og Kodi til að ná í Ítarupplýsingar yfir Kvikmyndir, Veggspjöld og Fanart til að lífga upplifun notandans.</description>
+    <description lang="it">themoviedb.org è un database libero e aperto. E' gestito da utenti e persone come te. Viene usato correntemente da millioni di persone ogni mese e con le sue potenti API, è anche utilizzato da molti popolari media centers come Kodi per ottenere Metadati, Posters e Fanart di film per arricchire la loro esperienza utente.</description>
+    <description lang="ja">themoviedb.org は自由でオープンな映画データベースです。その運営は、完全にユーザ主導で行われています。TMDb は現在毎月何百万人もの人に利用されているほか、Kodi のようなメディアセンターも、TMDb のパワフルな API を介して映画メタデータ、ポスター、ファンアートを取得し、使い勝手を向上させるなどして使っています。</description>
+    <description lang="ko">themoviedb.org 는 전적으로 여러분 같은 이용자가 주도하는 무료 공개 영화 데이터베이스입니다. TMDb 는 현재 매월 수백만의 사람들이 강력한 API와 함께 사용하고 있을 뿐만 아니라 Kodi 같은 많은 미디어 센터가 영화 정보, 포스터, 팬아트를 가져와 풍성한 사용자 경험을 제공하는데 이용되고 있습니다.</description>
+    <description lang="lt">themoviedb.org yra nemokama ir atvira filmų duomenų bazė. Ji palaikoma tokių pat vartotojų kaip ir jūs. TMDb šiuo metu naudojama milijonų žmonių kiekvieną mėnesį ir turi galingą API, o taip pat naudojama daugelio populiarių media centrų, tokių kaip Kodi, kad gautų filmų metaduomenis, plakatus ir Fanart, siekiant praturtinti vartotojo patirtį.</description>
+    <description lang="mk">themoviedb.org is a free and open movie database. It's completely user driven by people like you. TMDb is currently used by millions of people every month and with their powerful API, it is also used by many popular media centers like Kodi to retrieve Movie Metadata, Posters and Fanart to enrich the user's experience.</description>
+    <description lang="ml">മൂവി ഡി ബി, എല്ലാവർക്കും കൈവക്കാവുന്ന ഒരു സൗജന്യ വിവരശേഖരമാണ്. ഇതുമൂലം ലോകം മുഴുവനും സിനിമാ പോസ്റ്ററുകൾ എല്ലവരും കാണുന്നു</description>
+    <description lang="ms">themoviedb.org adalah pangkalan data cakera terbuka. Ia sepenuhnya dipacu oleh individu seperti anda. TMDb buat masa ini diguna oleh berjuta-juta individu setiap bulan dan dengan API hebat mereka, ia juga digunakan oleh banyak pusat media popular seperti Kodi untuk mendapatkan Data Meta, Poster, Seni Peminat Cereka untuk memperkayakan pengalaman pengguna.</description>
+    <description lang="nl">Themoviedb.org is een vrije en open filmdatabank. Gebruikers zoals jij vormen de motor van deze site. Op dit moment gebruiken elke maand miljoenen mensen TMDb. De krachtige API van de site laat mediacenters zoals Kodi toe om metadata, posters en fanart op te halen en zo de gebruikerservaring te verrijken.</description>
+    <description lang="no">themoviedb.org er en fir og åpen filmdatabase. Den drives helt og fullt av mennesker som deg. TMDB brukes av millioner av mennesker hver måned og med sitt gode API, brukes den også av mange popluære mediasenterløsninger som Kodi for å hente metadata for filmer, plakater og fanart for å gi en bedre brukeropplevelse.</description>
+    <description lang="pl">themoviedb.org jest wolną i otwartą filmową bazą danych, zarządzaną przez osoby takie jak Ty. Obecnie odwiedzają ją miliony osób miesięcznie, a dzięki dostępności interfejsu programistycznego jest używana przez wiele centrów multimedialnych takich jak Kodi, jako źródło informacji o filmach, plakatów i tapet.</description>
+    <description lang="pt">O themoviedb.org é uma base de dados de filmes livre e aberta. É actualizado inteiramente por pessoas como você e usado por milhões todos os meses. Com o poderoso motor de busca disponível, também se tornou no favorito para muitos programas de centro de média, como o popular Kodi, para obter informação, posters e fanart que enriquecem a experiência do utilizador.</description>
+    <description lang="pt_BR">O themoviedb.org é um banco de dados aberto e gratuito. É completamente operado por pessoas como você. O TMDb é atualmente usado por milhares de pessoas a cada mês e com sua poderosa API, é usado por muitas centrais de mídia populares como o Kodi para buscar metadados, cartazes e fanart de filmes para enriquecer a experiência do usuário.</description>
+    <description lang="ro">themoviedb.org este o bază de date de filme gratuită și deschisă. Este actualizată de oameni ca și tine. TMDb este curent folosită de milioane de oameni în fiecare lună și datorită API-ului puternic, este de asemena folosită de multe centre media populare ca Kodi pentru a obține informații despre filme, afișe și imagini produse de fani (Fanart) care îmbogățesc experiența utilizatorului.</description>
+    <description lang="ru">themoviedb.org — это бесплатная и открытая база данных фильмов. Она полностью поддерживается обычными людьми. В данный момент сайт TMDb используют миллионы людей каждый месяц, и благодаря мощному API его могут использовать различные популярные медиацентры, такие как Kodi, чтобы получать метаданные, постеры и фанарт для фильмов с целью красивого оформления интерфейса.</description>
+    <description lang="se">themoviedb.org är en fri och öppen filmdatabas. Det drivs helt av människor som dig. TMDb används av miljontals människor varje månad och med deras kraftfulla API, är det också använt av många populära mediacenter som Kodi för att hämta filmmetadata, omslag och fanart för att förgylla användarens upplevelse.</description>
+    <description lang="sk">themoviedb.org je voľná a otvorená databáza filmov. Je výlučne vedená užívateľmi ako si ty. TMDb je každý mesiac používaná miliónmi ľudí, a vďaka svojmu výkonnému API je veľmi populárna medzi 'media centrami' ako Kodi pre sťahovanie filmových metadát, plagátov a fanartov pre obohatenie  zážitkov.</description>
+    <description lang="sl">themoviedb.org je brezplačna in prosta baza filmov. Je v celoti ustvarjena s strani uporabnikov kot ste vi. TMDB uporablja miljone ljudi in z njihovo močno API, jo lahko uporabljate tudi v multimedijskih centrih kot Kodi, s tem prenesete informacije o filmih, plakate in ozadja ter s tem popestrite uporabniško izkušnjo.</description>
+    <description lang="sv">themoviedb.org är en gratis och öppen filmdatabas. Den drivs helt av människor som du. TMDb används för närvarande av miljoner människor varje månad och med deras kraftfulla API används den även av många populära mediacenter som t.ex. Kodi för att hämta metadata om filmer, affischer och fanart för att berika användarens upplevelse.</description>
+    <description lang="ta_IN">themoviedb.org ஒரு இலவச மற்றும் திறந்த திரைப்பட தரவுத்தளம் ஆகும். இந்த தரவுத்தளம்  முற்றிலும் பயனர் மக்களால் இயக்கப்படுகிறது. TMDb அவர்களது சக்திவாய்ந்த API இனால் தற்போது பல இலட்சக்கணக்கான மக்களால் ஒவ்வொரு மாதமும் பயன்படுத்தப்படுகிறது, இது Kodi போன்ற பல பிரபல ஊடக மையங்களில் பயனர் அனுபவத்தை மேம்படுத்த பயன்படுத்தப்படுகிறது.</description>
+    <description lang="th">themoviedb.org เป็นฐานข้อมูลภาพยนตร์ที่ฟรีและเปิดกว้าง. มันถูกขับเคลื่อนจากผู้ใช้ โดยคนเช่นคุณ. TMDb ปัจจุบันมีการใช้โดยคนนับล้านในแต่ละเดือน และมีประสิทธิภาพด้วย API ของพวกเขา , มันยังถูกใช้โดยหลายศูนย์สื่อที่นิยมเช่น Kodi เพื่อดึง อธิบายข้อมูลภาพยนตร์, โปสเตอร์และ แฟนอาร์ต เพื่อเพิ่มประสบการณ์ของผู้ใช้</description>
+    <description lang="tr">themoviedb.org ücretsiz ve herkese açık bir film veri tabanıdır. Tamamen kullanıcılar tarafından oluşturulmakta ve yönetilmektedir. TMDb her ay milyonlarca kullanıcı tarafından kullanılmakta ve güçlü API'si sayesinde Kodi gibi bir çok popüler medya merkezi tarafından Film Veritabanı, Poster ve Fanart bilgilerini kullanarak kullanıcı deneyimini zenginleştirmektedir.</description>
+    <description lang="uk">themoviedb.org - це безкоштовна і відкрита база даних фільмів. Вона повністю підтримується звичайними людьми. В даний момент сайт TMDb використовують мільйони людей кожен місяць, і завдяки потужному API, його можуть використовувати різні популярні медіацентри, такі як Kodi, щоб отримувати метадані, постери і фанарт для фільмів з метою оформлення інтерфейсу.</description>
+    <description lang="vi">themoviedb.org là cơ sở dữ liệu về phim ảnh mở và miễn phí. Nó hoàn toàn được kiểm soát bởi những người như bạn. TMDb hiện tại đang được sử dụng bởi hàng triệu người dùng hàng tháng và với sự hỗ trợ của bộ API mạnh mẽ nó cũng được sử dụng bởi những thiết bị giải trí cá nhân như Kodi cho việc lấy dữ liệu về Phim ảnh, Poster và Fanart để làm tăng trải nghiệm của người sử dụng</description>
+    <description lang="zh">themoviedb.org 是一个开放和自由的电影数据库。它完全由象你一样的用户来掌控。TMDb 每月为上百万用户提供服务，并通过强大的 API 界面为许多流行的媒体中心系统如 Kodi 提供电影资料、封面海报和同人画以丰富用户的体验。</description>
+    <description lang="zh_TW">themoviedb.org是一個免費和開放的電影資料庫。它是完全由與您一樣的廣大使用者來更新資訊。 TMDb目前擁有數以百萬計的使用人次並且有著強大的API，許多受歡迎的媒體中心平台像Kodi藉由TMDb獲取電影的數據資料庫，海報和影片資訊，以豐富使用者體驗。</description>
+    <platform>all</platform>
+    <license>GPL v2.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="metadata.tvdb.com"
+       name="The TVDB"
+       version="3.0.1"
+       provider-name="Team Kodi">
+  <requires>
+    <import addon="xbmc.metadata" version="2.1.0"/>
+    <import addon="metadata.common.imdb.com" version="2.9.2"/>
+  </requires>
+  <extension point="xbmc.metadata.scraper.tvshows"
+             language="multi"
+             library="tvdb.xml"
+             cachepersistence="00:15"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="af">Gaan haal TV vertoning metadata vanaf TheTVDB.com</summary>
+    <summary lang="be">Fetch TV show metadata from TheTVDB.com</summary>
+    <summary lang="bg">Изтегля информация за ТВ Сериали от TheTVDB.com</summary>
+    <summary lang="ca">Obté les metadades de les sèries de televisió de TheTVDB.com</summary>
+    <summary lang="cs">Získat metadata televizního pořadu z TheTVDB.com</summary>
+    <summary lang="cy">Estyn metadata sioeau Teledu o TheTVDB.com</summary>
+    <summary lang="da">Hent metadata til TV-serier fra TheTVDB.com</summary>
+    <summary lang="de">Lade TV-Show-Metadaten von TheTVDB.com</summary>
+    <summary lang="el">Λήψη μετα-δεδομένων σειρών από το TVDB.com</summary>
+    <summary lang="en">Fetch TV show metadata from TheTVDB.com</summary>
+    <summary lang="en_NZ">Fetch TV show metadata from TheTVDB.com</summary>
+    <summary lang="en_US">Fetch TV show metadata from TheTVDB.com</summary>
+    <summary lang="es">Recuperar metadatos de series de TV en TheTVDB.com</summary>
+    <summary lang="es_AR">Recuperar metadatos de series de TV en TheTVDB.com</summary>
+    <summary lang="es_MX">Obtener metadata de Series desde TheTVDB.com</summary>
+    <summary lang="et">Hangi tv seriaalide metainfo TheTVDB.com-ist</summary>
+    <summary lang="fi">Nouda TV-ohjelmien tietoja TheTVDB.com -sivustolta</summary>
+    <summary lang="fr">Collecter les métadonnées des séries TV depuis TheTVDB.com</summary>
+    <summary lang="fr_CA">Récupérer les métadonnées pour les séries télé depuis TVDB.com</summary>
+    <summary lang="gl">Obter os metadatos das series de TV dende TheTVDB.com</summary>
+    <summary lang="he">הבא מידע </summary>
+    <summary lang="hi">द टी भी दी बी.कॉम से टी वी प्रदर्शन लाए</summary>
+    <summary lang="hr">Nabavi informacije za TV serije s TheTVDB.com</summary>
+    <summary lang="hu">TV műsor információk a TheTVDB.com-ról</summary>
+    <summary lang="id">Ambil metadata Serial TV dari TheTVDB.com</summary>
+    <summary lang="is">Sækja Sjónvarpsþátta lýsigögn frá TheTVDB.com</summary>
+    <summary lang="it">Scarica informazioni programma TV da TheTVDB.com</summary>
+    <summary lang="ja">TheTVDB.com からTV番組メタデータを取得</summary>
+    <summary lang="ka">სატელევიზიო გადაცემების მეტაინფორმაციის გადმოტანა TVDB.com-დან</summary>
+    <summary lang="ko">TheTVDB.com 에서 TV 쇼 정보 가져오기</summary>
+    <summary lang="lt">Parsiųsti TV šou (serialo) metaduomenis iš TheTVDB.com</summary>
+    <summary lang="mk">Превземи ТВ шоу метаподаток од TVDB.com</summary>
+    <summary lang="ms">Dapatkan data meta rancangan TV dari TheTVDB.com</summary>
+    <summary lang="my">TV show နှင့်ပတ်သက်သည့် အချက်အလက်များကို TheTVDB.com မှ ရယူရန်</summary>
+    <summary lang="nl">Seriemetadata ophalen van TheTVDB.com</summary>
+    <summary lang="no">Hent TV program data fra TheTVDB.com</summary>
+    <summary lang="pl">Pobieraj dane o serialach telewizyjnych z TheTVDB.com </summary>
+    <summary lang="pt">Obtenha metadados para séries TV a partir de TVDB.com</summary>
+    <summary lang="pt_BR">Obtenha dados dos seriados do TheTVDB.com</summary>
+    <summary lang="ro">Obţineţi datele despre seriale de la TheTVDB.com</summary>
+    <summary lang="ru">Загрузка информации о ТВ-шоу с TheTVDB.com</summary>
+    <summary lang="se">Skrapa för TV-seriemetadata från TVDB.com</summary>
+    <summary lang="sk">Získať metadáta o televíznej relácii zo stránky TheTVDB.com</summary>
+    <summary lang="sl">Prenesite informacije o TV serijah z TheTVDB.com</summary>
+    <summary lang="sq">Merr "metadata" mbi TV serialet nga TheTVDB.com</summary>
+    <summary lang="sv">Hämta TV-seriemetadata från TVDB.com</summary>
+    <summary lang="ta_IN">TheTVDB.com இருந்து தொலைக்காட்சி நிகழ்ச்சி மெட்டாடேட்டா எடுக்கபடுகின்றது</summary>
+    <summary lang="th">เรียกข้อมูลหลักของรายการทีวี จาก TheTVDB.com</summary>
+    <summary lang="tr">TV programı meta verilerini TheTVDB.com'dan al</summary>
+    <summary lang="uk">Отримання відомостей про серіали із TheTVDB.com</summary>
+    <summary lang="vi">Trình lấy TV show từ TheTVDB.com</summary>
+    <summary lang="zh">从 TheTVDB.com 获取电视剧集信息</summary>
+    <summary lang="zh_TW">從 TheTVDB.com 取得電視節目資訊</summary>
+    <description lang="af">TheTVDB.com is 'n TV Skraper. Die werf is 'n massiewe oop databasis wat deur enige iemand verander kan word en bevat vol meta data vir baie vertonings in verskillende tale. Alle inhoud en prente op die werf is bygedra deur sy gebruikers vir sy gebruikers en het 'n hoë standaard van kwaliteit. Die databasis skema en webruimte is oopbron onder die GPL.</description>
+    <description lang="be">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
+    <description lang="bg">TheTVDB.com предоставя информация за ТВ Сериали. Сайтът е масивна отворена база данни, която може да бъде променяна от всеки и съдържа пълни мета данни за много сериали на различни езици. Цялото съдържание и изображенията в сайта са предоставени от неговите потребители за други потребители и имат високо ниво на качество. Структурата на базата данни и уеб сайта са създадени с отворен код под GPL лиценз.</description>
+    <description lang="ca">TheTVDB.com és un raspador de TV. El lloc és una base de dades oberta massiva que pot ser modificat per qualsevol persona i conté metadades completes de molts programes en diferents idiomes. Tot el contingut i imatges en el lloc han estat aportat pels usuaris per als usuaris i tenen un alt nivell o qualitat. L'esquema de la base de dades i la pàgina web són de codi obert sota la llicència GPL.</description>
+    <description lang="cs">TheTVDB.com je zdroj metadat pro televizní pořady. Stránka je masivní otevřená databáze, kterou může kdokoliv upravovat a obsahuje veškerá metadata v různých jazycích k mnoha pořadům. Všechen obsah a obrázky jsou poskytnuty uživateli pro uživatele a mají vysokou kvalitu. Návrhový vzor databáze a webová stránka jsou svobodný software licencovaný pod GPL.</description>
+    <description lang="cy">Mae TheTVDB.com yn Grafwr Teledu. Mae'r wefan yn gronfa ddata anferthol agored y mae modd ei addasu gan unrhyw un  ac yn cynnwys meta data llaw llawer o sioeau mewn ieithoedd gwahanol. Mae'r holl gynnwys a delweddau ar y wefan wedi ei gyfrannu gan eu defnyddwyr ac i safon uchel . Mae cynllun y gronfa ddata a'r wefan yn god agored o dan y GPL.</description>
+    <description lang="da">TheTVDB.com er en TV-scraper. Siden er en massiv åben database, som alle kan modificere, og den indeholder fyldestgørende metadata for mange serier på forskellige sprog. Alt indhold og alle billeder på siden er tilføjet af brugere og har en høj standard eller kvalitet. Databasens model og webside er open source under GPL.</description>
+    <description lang="de">TheTVDB.com ist ein Scraper für TV-Shows. Die Seite ist eine riesige, offene Datenbank, die von jedem angepasst werden kann und weitreichende Metadaten für viele TV-Shows, in verschiedenen Sprachen, enthält. Alle Inhalte und Bilder dieser Seite wurden von Benutzern für Benutzer zusammengetragen und folgen dabei dem hohen Standard für Qualität. Das Datenbankschema sowie die Webseite sind nach der GPL-Lizenvereinbarung OpenSource.</description>
+    <description lang="el">Το TVDB.com είναι ένα Scraper Τηλεόρασης. Η ιστοσελίδα είναι μία τεράστια ανοικτή βάση δεδομένων η οποία μπορεί να τροποποιηθεί από τον καθένα και περιέχει πλήρη μετα-δεδομένα για πολλές σειρές σε διάφορες γλώσσες. Όλο το περιεχόμενο και οι εικόνες στην ιστοσελίδα προέρχονται από τους χρήστες του, και έχουν υψηλά πρότυπα ποιότητας. Το σχήμα της βάσης δεδομένων και της ιστοσελίδας είναι ανοικτού κώδικα υπό το GPL.</description>
+    <description lang="en">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
+    <description lang="en_NZ">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
+    <description lang="en_US">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
+    <description lang="es">TheTVDB.com es un scraper de TV. El sitio es una enorme base de datos abierta que puede ser modificada por cualquiera y que contiene metadatos completos de muchas series en diferentes idiomas. Todos los contenidos e imágenes del sitio han sido aportados por sus usuarios y tienen una alta calidad. El esquema de base de datos y sitio web son de código abierto bajo la licencia GPL.</description>
+    <description lang="es_AR">TheTVDB.com es un scraper de TV. El sitio es una enorme base de datos abierta que puede ser modificada por cualquiera y que contiene metadatos completos de muchas series en diferentes idiomas. Todos los contenidos e imágenes del sitio han sido aportados por sus usuarios y tienen una alta calidad. El esquema de base de datos y sitio web son de código abierto bajo la licencia GPL.</description>
+    <description lang="es_MX">TheTVDB.com es un scraper de series de TV. Este sitio es una base de datos masiva y abierta que puede ser modicada por cualquiera y contiene metadata completa para muchas series en diferentes lenguajes. Todo el contenido e imágenes del sitio han sido contribuidos por sus usuarios para usuarios, los cuales tienen un alto estándar de calidad. El esquema de la base de datos y el sitio web son de código abierto bajo GPL.</description>
+    <description lang="et">TheTVDB.com on seriaalide kraabits. See leht on mahukas avatud andmebaas mida saavad täiendad kõik ja sisaldab palju metaandmeid suure hulga seriaalide kohta. Kõik sisu ja pildid lehel on kasutajate poolt sisestatud ning vastavad kõrgele kvaliteedile. TheTVDB.com andmebaasi struktuur ja kood on avaldatud GPLi all.</description>
+    <description lang="fi">TheTVDB.com on TV-ohjelmatietojen lataaja. Sivusto on massiivinen avoin tietokanta, jonka tietoja kaikki pystyy muokkaamaan ja se sisältää täydet tiedot monista TV-ohjelmista usealla eri kielellä. Kaikki sivuston sisältö ja kuvat on korkealaatuisia ja käyttäjien lahjoittamia. Tietokanta ja sivusto ovat GPL-lisenssin alaisia.</description>
+    <description lang="fr">TheTVDB.com est un collecteur TV. Le site est une immense base de données libre pouvant être modifiée par tout le monde et contenant toutes les informations de nombreuses séries en différentes langues. Les informations et images du site proviennent de contributions d'utilisateurs pour les usagers et sont d'excellentes qualités. Le schéma de la base de données et le site Web sont en open source sous licence GPL.</description>
+    <description lang="fr_CA">TheTVDB est un extracteur pour séries télé. Ce site est une énorme base de données ouverte qui peut être modifiée par n'importe qui et qui comprend des métadonnées complètes pour beaucoup de séries télé dans plusieurs langues. Tout le contenu et les images présentes sur le site ont été fournis par les utilisateurs et possèdent un haut niveau de qualité. La structure de la base de données et le site Web sont libres et sous licence GPL.</description>
+    <description lang="gl">TheTVDB.com é un Scraper de TV. O sitio é unha enorme base de datos aberta que calquera pode modificar e contén todos os metadatos de centos de series en diferentes idiomas. Todo o contido e imaxes do sitio foi proporcionado polos seus usuarios e amosa un grande estándar de calidade. O esquema da base de datos e o sitio web son de código aberto baixo licenza GPL.</description>
+    <description lang="he">TheTVDB.com הוא סקרייפר עבור תוכניות טלוויזיה. אתר זה הוא מסד נתונים פתוח עצום אשר כל אחד יכול לערוך ומכיל פרטים מלאים להרבה תוכניות טלוויזיה בשפות שונות. כל התכנים והתמונות באתר נתרמו ע"י המשתמשים שלה עבור משתמשים וישנו סטנדרט גבוה או איכות גבוהה. תכנית המסד נתונית והאתר הם בקוד פתוח תחת ה-GPL.</description>
+    <description lang="hi">टीभीडीबी एक टीभी स्क्रॅपर है.येह साइट एक बहुत बरा खुला डेटाबेस है जो किसी से भी रूपांतर्न किया जा सकता है और यह ह्र भासाओ मे सभी प्रदर्शन के लिए मीटा दाता रखता है.सभी सामग्री और चित्र यूज़र के लिए यूज़र का योगदान है और उच्च मानक या गुणवत्ता रखता है.डेटाबेस स्कीम और वेबसाइट जीपील् की अंतर्गत ओपन सोर्स है.</description>
+    <description lang="hr">TheTVDB.com je sakupljač informacija za TV programe. Stranica je ogromna otvorena baza podataka koju može bilo tko mijenjati i sadrži mnogo informacija za različite serije na različitim jezicima. Sav sadržaj i slike postavili su korisnici za ostale korisnike i visoke su kvalitete. Shema baze podataka i web stranice su otvorenog kôda pod GPL licencom.</description>
+    <description lang="hu">A TheTVDB.com egy TV műsor leolvasó. Az oldal egy hatalmas adatbázis amit bárki szabadon módosíthat és rengeteg TV műsor adatait tartalmazza különböző nyelveken. A minőségi tartalom és képanyag ezen az oldalon felhasználóktól származik más felhasználók számára. Az adatbázisstruktúra és a weblap nyílt forráskódú a GPL licenc alatt.</description>
+    <description lang="id">TheTVDB.com adalah pengais Serial TV. Situs ini adalah database yang sangat besar dan terbuka yang dapat dimodifikasi oleh semua orang dan mengandung meta data yang penuh untuk banyak Serial TV di bahasa yang berbeda. Semua konten dan gambar dalam situ ini dikontribusikan oleh penggunanay untuk pengguna dan memiliki standar dan kualitas tinggi. Skema database dan situs adalah open-source dengan lisensi GPL.</description>
+    <description lang="is">TheTVDB.com er sjónvarpsskafa.. Þessi veita er risastór opinn gagnagrunnur sem allir geta breytt og er með öll lýsigögn fyrir fullt af þáttum á mörgum tungumálum. Allt efni og myndir á veitunni er sett inn af notendum fyrir notendur og eru í háum staðli eða gæðum. Uppsetning gagnagrunnsins og vefsíðan eru 'open source under the GPL'</description>
+    <description lang="it">TheTVDB.com è uno scraper di programmi TV. Questo sito è un enorme database che può essere modificato da chiunque, e contiene tutte le informazioni di molti show in varie lingue. Tutti i contenuti e le immagini sul sito sono stati forniti dagli utenti, ed hanno un alto standard di qualità. Lo schema del database e il sito internet sono open source sotto licenza GPL.</description>
+    <description lang="ja">TheTVDB.com は TV スクレーパーです。本サイトは強力でオープンなデータベースで、誰もが追加修正可能です。テレビ番組のメタデータは多くの言語で提供されています。番組情報や画像データはユーザにより提供され、そのクオリティは非常に高いものです。データベーススキーマと web サイトは GPL ライセンスのオープンソースです。</description>
+    <description lang="ko">TheTVDB.com 은 TV 정보수집기입니다. 위 사이트는 이용자가 직접 수정할 수 있으며 다양한 언어의 완전한 메타 데이터를 포함하는 방대한 오픈 데이터베이스입니다. 사이트의 모든 콘텐츠와 이미지들은 사이트 이용자들이 다른 이용자들을 위해 제공한 것이며 높은 품질을 가지고 있습니다. 웹사이트와 데이터베이스 스키마는 GLP 오픈소스입니다.</description>
+    <description lang="lt">TheTVDB.com yra TV Scraper. Ši svetainė yra didžiulė atvira duomenų bazė, kuria gali pakeisti bet kas ir kurioje visa meta duomenis bazė daugelo šou įvairiomis kalbomis. Visas svetainės turinys atnaujinamas/papyldomasvartotojų ir turi aukštą kokybės standartą. Duomenų bazės ir svetainės yra atviro kodo pagal GPL standartą.</description>
+    <description lang="mk">TheTVDB.com is a TV Scraper. The site is a massive open database that can be modified by anybody and contains full meta data for many shows in different languages. All content and images on the site have been contributed by their users for users and have a high standard or quality. The database schema and website are open source under the GPL.</description>
+    <description lang="ms">TheTVDB.com adalah Pengikis TV. Laman tersebut merupakan pangkalan data terbuka yang amat besar dan boleh diubahsuai oleh sesiapa pun dan juga mengandungi data meta pelbagai rancangan  dalam pelbagai bahasa. Semua kandungan dan imej di laman ini disumbang oleh pengguna mereka untuk pengguna mereka dan mempunyai piawaian dan kualiti yang amat tinggi. Skema pangkalan data dan laman adalah sumber terbuka dibawah GPL.</description>
+    <description lang="my">TheTVDB.com သည် TV Scraper ဖြစ်သည်။ database ထဲတွင် အချက်အလက်များစွာရှိနေပြီး မည်သူမဆို မည်သည့် ဘာသာစကားနှင့် မဆို ဝင်ရောက်ပြုပြင် နိုင်သည်။ အချက်အလက်များနှင့် ပုံများသည် ၎င်းတို့၏ အသုံးပြုသူများမှ အခြားအသုံးပြုသူများအတွက် ပံ့ပိုးထားသော အဆင်မြင့် အရေအသွေးများဖြစ်သည်။ website နှင့် database သည် open source GPL လိုင်စင် ကို အသုံးပြုထားသည်။</description>
+    <description lang="nl">TheTVDB.com is een seriescraper. De site is een gigantische open databank die iedereen kan aanpassen en uitbreiden, en biedt metadata aan voor TV-series in verschillende talen. Alle inhoud en afbeeldingen zijn afkomstig van gebruikers en moeten een grondige kwaliteitscontrole doorstaan. Het databankschema en de websitecode zijn vrijgegeven onder de open source GPL-licentie.</description>
+    <description lang="no">TheTVDB.com er en Tv Skraper. Siden er en massiv åpen database som kan endres av alle og inneholder data for mange forskjellige programmer på mange språk. Alt innholdet og bildene på siden er lagt til av brukere for brukere og har høy standard og kvalitet. Database skjemaet og websiden er åpen kildekode underlagt GPL.</description>
+    <description lang="pl">TheTVDB.com jest ekstraktorem informacji o serialach telewizyjnych. Serwis jest ogromną, wielojęzykową i otwartą bazą danych o serialach, którą może edytować każdy. Zawartość tego serwisu została stworzona przez użytkowników, dla użytkowników. Dostępne materiały są najwyższej jakości.</description>
+    <description lang="pt">O TheTVDB.com é um colector para séries TV. O site é uma gigantesca base de dados livre que pode ser alterada por qualquer pessoa e contém informação em várias línguas. Todos os conteúdos do site foram enviados por utilizadores e têm um elevado padrão de qualidade. A base de dados e o site funcionam sob uma licença GPL de software livre.</description>
+    <description lang="pt_BR">TheTVDB.com é um scraper de seriados. O site é um enorme banco de dados aberto que pode ser modificado por qualquer pessoa e contém metadados completos de muitos seriados em diferentes idiomas. Todos os conteúdos e imagens no site foram contribuições de usuários para usuários e têm um alto padrão de qualidade. O esquema do banco de dados e do site são de código aberto sob a licença GPL.</description>
+    <description lang="ro">TheTVDB.com este un colectore TV. Site-ul este o bază de date masivă, deschisă, ce poate fi modificată de oricine şi conţine date complete despre multe seriale în diferite limbi. Tot conţinutul site-ului a fost contribuit de către utilizatori pentru utilizatori şi are un standard de caliate înalt. Schema bazei de date şi site-ul au sursele libere sub licenţă GPL.</description>
+    <description lang="ru">TheTVDB.com — это инфоресурс для сериалов. Сайт представляет собой огромную открытую базу данных, в которую может вносить данные любой пользователь и которая содержит полные мета-данные для многих сериалов на различных языках. Всё содержимое и изображения на сайте были выложены его пользователями для других пользователей и имеют высокий уровень качества. Структура базы данных и веб-сайт созданы с открытым исходным кодом по лицензии GPL.</description>
+    <description lang="se">TVDB.com är en TV-skrapa. Sajten är en massiv öppen databas som kan ändras av vem som helst och innehåller full metadata för mängder av serier på olika språk. Allt innehåll och bilder på sajten har bidragits av användare för användare och har en hög standard eller kvalitet. Databasschemat och webbsidan är licensierat som GPL.</description>
+    <description lang="sk">TheTVDB.com je zdroj získavania dát ohľadom TV. Táto stránka je obrovskou otvorenou databázou, ktorú môže upravovať ktokoľvek a obsahuje úplne metadáta pre mnoho relácií v rôznych jazykoch. Všetok obsah a obrázky na stránke bol dodaný samotnými používateľmi pre používateľov a udržuje si vysoký štandard a kvalitu. Schéma databázy a webová stránka sú dostupné vo forme open source v súlade s licenciou GPL.</description>
+    <description lang="sl">TheTVDB.com je ponudnik informacij o TV serijah. Stran je masovna odprta baza podatkov, ki jo lahko dopolni kdorkoli, in vsebuje informacije o najrazličnejših TV serijah v več jezikih. Vsa vsebina in slike so bile dodane s strani uporabnikov in imajo visok nivo kvalitete. Shema baze in spletna stran sta odprtokodni pod GPL.</description>
+    <description lang="sq">TheTVDB.com është një "TV Scraper". Kjo faqe është nje bazë e të dhënave e hapur që mund të modifikohet nga si cili dhe përmbanë metadata  për shumë seriale në gjuhë të ndryshme. Gjitha të dhënat dhe imazhet në këtë faqe janë kontribuar nga përdoruesit për përdoruesit dhe kanë një standard dhe kualitet të lartë. Skema e bazës së të dhënave dhe sajti i uebit janë open source nën liçensën GPL.  </description>
+    <description lang="sv">TVDB.com är en TV-skrapa. Sajten är en massiv öppen databas som kan bli modifierad av vem som helst och innehåller all metadata för många serier på olika språk. Allt innehåll och bilder på sidan har bidragits av användare för användare och har hög standard eller kvalitet. Databasschemat och sidan är öppen källkod licensierat under GPL.</description>
+    <description lang="ta_IN">TheTVDB.com ஒரு தொலைக்காட்சி சுரண்டி. இந்த இணையத்தளத்தில் ஒரு பெரிய தரவுத்தளம் உள்ளது. இதில் எல்லா மொழிகளின் மேட்டாடேட்டா உள்ளது. அனைத்து தகவல்களும் படங்களும் அதன் பயனர்களின் சேகரிப்புஆகும். GPL லைசன்சில் உள்ளது.</description>
+    <description lang="th">TheTVDB.com เป็นตัวดึงข้อมูลทีวี เว็บไซต์เป็นฐานข้อมูลเปิดขนาดใหญ่ที่สามารถแก้ไขได้โดยทุกคนและมีข้อมูลขั้นสูงเต็มรูปแบบ สำหรับหลาย ๆ รายการ ในแต่ละภาษาที่แตกต่างกัน เนื้อหาและรูปภาพทั้งหมดในเว็บไซต์ ได้รับการสนับสนุนโดยผู้ใช้เพื่อผู้ใช้ มีคุณภาพและมาตรฐานที่สูง schemaของฐานข้อมูลและเว็บไซต์ได้เปิดภายใต้ GPL</description>
+    <description lang="tr">TheTVDB.com bir TV Scraper'dır. Bu site herkesin düzenleyebileceği büyük bir açık veritabanıdır ve farklı dillerdeki bir çok şov için bilgiler içerir. Sitedeki her resim ve içerik kullanıcılar tarafından kullanıcılar için karşılanır ve bunlar yüksek standart ve kaliteye sahiptir. Veritabanı şeması ve internet sitesi GPL lisansı altında açık kaynaklıdır.</description>
+    <description lang="uk">TheTVDB.com — джерело інформації про серіали. Це величезна база даних, що містить повні метадані про різні серіали багатьма мовами, яку може редагувати будь-хто. Увесь вміст і зображення на сайті, що відповідають найвищим стандартам якості, надали користувачі для користувачів. Схема бази даних і веб-сайт мають відкриті коди на умовах ліцензії GPL.</description>
+    <description lang="vi">TheTVDB.com là trình lấy dữ liệu TV show. Site chứa một số lượng khổng lồ cơ sở dữ liệu mở, có thể được thay đổi bởi mọi người và đầy đủ dữ liệu lớn các show trên nhiều ngôn ngữ. Tất cả nội dung và hình ảnh trên site này đều được đóng góp bởi toàn bộ người dùng của nó và có chất lượng cao. Mô hình cơ sở dữ liệu và website đều là mã nguồn mở được hỗ trợ bởi GPL.</description>
+    <description lang="zh">TheTVDB.com 是一个电视刮削器。该网站是一个巨大的开放式数据库，任何人都可以修改，包含多语言的许多电视剧集资料。网站设定了高品质标准，所有图片和内容都由用户提供。数据库结构和网站均在 GPL 许可下开源。</description>
+    <description lang="zh_TW">TheTVDB.com是一個電視節目。該網站是一個龐大並可以由任何人修改的開放性資料庫，並包含可以以多國語言顯示的完整的數據資料。所有內容和圖片都是經由用戶提供使用，有一定的標準或質量。數據庫架構和網站是在GPL下的開放性源碼。</description>
+    <platform>all</platform>
+    <license>GPL v2.0</license>
+    <forum></forum>
+    <website></website>
+    <email></email>
+    <source></source>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.antennebayern" name="Antenne Bayern" version="2.0" provider-name="IPTVxtra Team">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>IPTVxtra Team</summary>
+    <description>Addon für Radio Antenne Bayern von IPTVxtra.net
+
+	Antenne Bayern - das Original
+	Rock Antenne, Oldies but Goldies,
+	Chillout, Schlagersahne, Hits für Kids,
+	80er Kulthits, Classic Rock Live,
+	Top 40, Lovesongs, Black Beatz
+
+	http://www.IPTVxtra.net</description>
+	<website>http://www.iptvxtra.net</website>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.audio.deutschrock"
+    name="[COLOR orange]Deutsch Rock[/COLOR]" version="1.0.0"
+	provider-name="[COLOR orange]SH Germania[/COLOR]">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+       <summary>Radio Online Stream</summary>
+        <description>[COLOR orange]
+Besucht uns mal auf Facebook.
+FACEBOOK GRUPPE HSK-DE:
+HARDWARE - SOFTWARE - KODI - DE
+https://www.facebook.com/groups/hskde/
+
+Kodimans Forum:
+https://www.kodiman.net/[/COLOR]</description>
+        <platform>all</platform>
+        <language>de</language>
+        <license></license>
+        <website></website>
+        <source></source>
+        <email></email>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.mp3streams" name="MP3 Streams" version="2017.09.09" provider-name="qahanik, kinkin, art by Marquerite">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+        <import addon="script.module.t0mm0.common" version="1.1.0"/>
+        <import addon="script.module.mutagen"/>
+        <import addon="script.module.requests" version="1.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.service" library="playerMP3.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>A music streaming collection</summary>
+        <description>Browse, stream or download your favourite songs and albums</description>
+        <news>fixed by qahanik (thank you very much!) / changed versioning to date-format / fixed album downloading / minor cosmetic cleanups</news>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
+<addon id="plugin.audio.worldradio" name="World Radio" version="0.0.2" provider-name="Mikey1234">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Listen Uk Radio</summary>
+    <description lang="en">Listen Uk Radio</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.program.addon.activador"
+       name="[COLOR blue]Kodi 17,18 Addon Activador[/COLOR]"
+	   version="1.0.0"
+	   provider-name="bit.ly/[COLOR blue][B]AMO[/B][/COLOR][COLOR green]box[/COLOR] | bitLoki1979 | HSK-DE">
+    <requires>
+		<import addon="xbmc.python" version="2.1.0"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="activador.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary>Kodi 17,18 Addon Activador</summary>
+    <description>Apos update do Kodi 16 para o Kodi 17, este addon permite activar os addons instalados com um so click.</description>
+    </extension>
+</addon>
+
+<addon id="plugin.program.super.favourites" name="Super Favourites" version="1.0.59" provider-name="spoyser">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.metahandler" optional="true" />
+  </requires>
+
+
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video audio image executable</provides>
+  </extension>
+
+
+  <extension point="xbmc.service" library="service.py" start="startup" />
+
+
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Put all your favourites bits of all your favourites addons into one easy to use addon.</summary>
+    <description lang="en">Super Favourites is a better way of managing your Kodi Favourites.[CR][CR]Virtually any menu item within Kodi can be added to Super Favourites, even from addons that don't normally provide this feature.[CR][CR]Super Favourites allows you to better manage your Kodi favourites, including the creation of sub-folders, into which your Kodi favourites can then be copied or moved into.[CR][CR]This allows you to create you own custom addon with just the best bits of your favourite addons. Search your favourite addons, play your favourite music, read your favourite comic strips, select your favourite playlists, browse your favourite movies, listen to your favourite radio stations, watch your favourite cartoons, the possibilities are endless, all from within one easy to use addon.</description>
+    <platform>all</platform>
+    <language>en</language>
+    <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=192662</forum>
+    <website></website>
+    <source>https://github.com/spoyser/spoyser-repo/tree/master/plugin.program.super.favourites</source>
+    <email>seanpoyser at gmail.com</email>
+
+    <news>
+1.0.59: 29th May 2017
+    - 'Now playing' text now defined by SF due to skin variations
+    </news>
+
+  </extension>
+
+
+  <extension point="kodi.context.item">
+    <menu id="kodi.core.main">
+
+      <item library="capture.py">
+        <label>$ADDON[plugin.program.super.favourites 30002]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_CONTEXTMENU_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_addtofaves.py">
+        <label>$ADDON[plugin.program.super.favourites 30047]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_ADDTOFAVES_ENABLED)) + !StringCompare(Container.PluginName,plugin.program.super.favourites)</visible>
+      </item>
+
+      <item library="menu_download.py">
+        <label>$ADDON[plugin.program.super.favourites 30259]</label>
+        <visible>!IsEmpty(Window(Home).Property(SF_STD_DOWNLOAD_ENABLED)) + Player.IsInternetStream</visible>
+      </item>
+
+    </menu>
+  </extension>
+
+</addon>
+
+<addon id="plugin.video.burningseries"
+	   name="Burning Series"
+	   version="1.5.9"
+	   provider-name="chmee phreekz john_117">
+  <requires>
+	<import addon="script.module.t0mm0.common"/>
+	<import addon="script.module.urlresolver"/>
+	</requires>
+  <extension point="xbmc.python.pluginsource"
+			 library="main.py">
+    	<provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary>bs.to player</summary>
+    <description>series, a lot, generally in german</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="plugin.video.covenant" version="1.1.34" name="Covenant" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.colossus" />
+		<import addon="script.module.covenant" />
+		<import addon="script.covenant.artwork" version="1.0.0" />
+		<import addon="script.covenant.metadata" version="1.0.0" />
+		<import addon="script.module.urlresolver" version="3.0.0" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="covenant.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Covenant</summary>
+		<description lang="en">[I]A New Generation[/I][CR][CR][B]Covenant Movies and TV[/B][CR][CR]This addon does not form part of the Kodi Media Centre. Please do not seek assistance with this addon from any of the Official Kodi Support Channels.[CR][CR]The author does not host any of the content in this addon and takes no responsibility for content found.</description>
+		<description lang="hr">[I]Nova generacija[/I][CR][CR][B]Covenant Filmova i TV serija[/B][CR][CR]Ovaj dodatak ne sadrži dijelove Kodi Medijskog Centra. Ne tažite pomoć za ovaj dodatak na službenim kanalima podrške za Kodi.[CR][CR]Autor ne posjeduje bilo kakav sadržaj u ovom dodatku i ne preuzima bilo kakvu odgovornost za pronađeni sadržaj.</description>
+		<description lang="he">[I]הדור החדש[/I][CR][CR][B]Covenant סרטים וסדרות[/B][CR][CR]ההרחבה הזו אינה חלק של Kodi Media Center. אנא אל תבקש עזרה עם ההרחבה זה מכל אחד מערוצי התמיכה הרשמיים של Kodi [CR][CR]. אין למחבר תוכן בהרחבה הזו והמחבר אינו אחראי לתוכן שנמצא.</description>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 3, 29 June 2007</license>
+		<forum></forum>
+		<website></website>
+		<source></source>
+		<disclaimer lang="en">The author of this addon do not host any of the content which is found and have no affiliation with any of the content providers. This addon simply searches websites for content. Use at your own risk!</disclaimer>
+		<disclaimer lang="hr">Autor ovog dodatka ne posjeduje bilo kakav sadržaj koji je pronađen i nije povezan sa bilo kojim izvorom sadržaja. Ovaj dodatak samo pretražuje sadržaj na web stranicama. Koristite ga na vlastitu odgovornost!</disclaimer>
+		<disclaimer lang="he">מחבר ההרחבה זה אינו מארח את התוכן שיתכן ויימצא ואין לו זיקה לאף אחד מספקי התוכן. הרחבה רק מחפשת תוכן שקיים באתרי אינטרנט. השימוש בהרחבה הוא על אחריותך בלבד!</disclaimer>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news></news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.lastship" version="2.0.4.1" name="Lastship" provider-name="Lastship">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0" />
+		<import addon="repository.lastship" version="1.0.1" />
+		<import addon="script.module.lastship" />
+		<import addon="script.lastship.artwork" />
+		<import addon="script.lastship.metadata" />
+		<import addon="script.module.urlresolver" />
+		<import addon="script.module.requests" />
+		<import addon="script.module.metahandler" version="1.0.0" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="lastship.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service.py" start="startup" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">lastship</summary>
+		<description lang="de">Wir suchen Entwickler. Bitte besuche das Forum [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] oder unseren Chatroom [COLOR blue]https://gitter.im/lastship_Chat/Lobby[/COLOR] für Unterstützung und Fragen zu lastship. lastship FAQ bitte lesen. Beachte, dass lastship kein offizieller Teil des verwendeten Media Players ist, und daher nicht von den offiziellen Support-Kanälen abgedeckt wird. Es handelt sich lediglich um eine Drittanbieter-Erweiterung, die dem System hinzugefügt wurde.</description>
+		<description lang="en">We're looking for developers. For support or questions about lastship, please visit the forums [COLOR blue]http://lastship.square7.ch/forum/forumdisplay.php?fid=5[/COLOR] or our chat room [COLOR blue]https://gitter.im/lastship_Chat/Lobby[/COLOR]. Please read the lastship FAQs. Keep in mind that lastship is not an official part of the media player it runs on, thhus it will not be supported via the official channels. It is just a third-party extension, which has been integrated into the system.</description>
+		<disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern der Software weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+		<disclaimer lang="en">The contents ahich are displayed by this addon are neither hosted nor distributed by the software developers, nor do the creators have any kind of relationship to the content providers.</disclaimer>
+		<platform>all</platform>
+		<forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=28</forum>
+		<source>https://github.com/lastship/plugin.video.lastship</source>
+		<assets>
+			<icon>icon.png</icon>
+			<fanart>fanart.jpg</fanart>
+    			<screenshot>resources/screenshots/screenshot-01.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-02.jpg</screenshot>
+    			<screenshot>resources/screenshots/screenshot-03.jpg</screenshot>
+		</assets>
+		<news>- Neuer TMDB Key</news>
+	</extension>
+</addon>
+
+<addon id="plugin.video.Skinbase"
+	name="[COLOR orange]G[/COLOR]UIDO[COLOR orange]S[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR]"
+	version="1.2.4"
+	provider-name="[COLOR orange]Guido | HSK-DE[/COLOR], SGK">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">Guidos SkinBase</summary>
+    <description lang="de">
+[COLOR orange]Guidos Youtube Channel über Kodi Skins und Mods.[/COLOR]
+[COLOR orange]Guidos Skinbase auf Facebook:[/COLOR]
+https://www.facebook.com/GuidosSkinBase/
+[COLOR orange]FACEBOOK GRUPPE HSK-DE :[/COLOR]
+[COLOR orange]HARDWARE - SOFTWARE - KODI - DE[/COLOR]
+https://www.facebook.com/groups/hskde/
+	</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source></source>
+    <website></website>
+    <email></email>
+    <license></license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>
+    </assets>
+    <news></news>
+  </extension>
+</addon>
+
+<addon id="plugin.video.xstream" name="xStream" version="3.4.6" provider-name="xStream-Team">
+ <requires>
+   <import addon="xbmc.python"                 version="2.14.0"/>
+   <import addon="repository.xstream"          version="1.1.1" />
+   <import addon="script.module.urlresolver"   version="3.0.0"/>
+   <import addon="script.module.metahandler"   version="1.0.0"/>
+   <import addon="script.module.mechanize"     version="0.2.6"/>
+ </requires>
+ <extension point="xbmc.python.pluginsource" library="default.py">
+   <provides>video</provides>
+ </extension>
+ <extension point="xbmc.addon.metadata">
+   <summary lang="de">Watch xStream!</summary>
+   <description lang="de">Mit diesem Addon kannst du auf alle angebotenen Streams verschiedenster deutschen Quellen zugreifen</description>
+   <disclaimer lang="de">Die von diesem Addon dargestellten Inhalte werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+   <summary lang="en">Watch xStream!</summary>
+   <description lang="en">With this addon you can watch all the streams from various german sources</description>
+   <disclaimer lang="en">The creators of this addon do not host or distribute any of the content displayed by the addon nor do they have any affiliation with the content providers.</disclaimer>
+   <forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=15</forum>
+   <source>https://github.com/lastship/plugin.video.xstream</source>
+   <license>GNU GPLv3</license>
+   <platform>all</platform>
+   <news>
+xStream 3.4.6
+
+- Kinostreamz und FilmeStreamz entfernt (Seiten offline)
+- Quick Fix Anmeldedaten Serienstream.to
+- Add SzeneStreams
+- Foxx Fix search
+- Update util.py
+- HD-Streams Fix search und Code Cleanup
+- Update HDStreams (Fix Regex)
+- Streamit, add Suche und Code optimiert
+   </news>
+   <assets>
+     <icon>icon.png</icon>
+     <fanart>fanart.jpg</fanart>
+     <screenshot>resources/art/screenshot-01.png</screenshot>
+     <screenshot>resources/art/screenshot-02.png</screenshot>
+     <screenshot>resources/art/screenshot-03.png</screenshot>
+     <screenshot>resources/art/screenshot-04.png</screenshot>
+     <screenshot>resources/art/screenshot-05.png</screenshot>
+   </assets>
+ </extension>
+</addon>
+
+<addon id="repository.exodus" name="Exodus repository" version="4.0.0" provider-name="Exodus">
+	<extension point="xbmc.addon.repository" name="Exodus repository">
+	<dir>
+		<info compressed="false">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml</info>
+		<checksum>https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/tvaddonsco/tva-resolvers-repo/raw/master/zips/</datadir>
+	</dir>
+
+    <dir>
+		<info compressed="false">https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml</info>
+		<checksum>https://github.com/nrwzum/freelance/raw/master/fun-stuff/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/nrwzum/freelance/raw/master/fun-stuff/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml</info>
+		<checksum>https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bridgegirl/lonelycode/raw/master/puffpuffpass/</datadir>
+    </dir>
+    <dir>
+		<info compressed="false">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml</info>
+		<checksum>https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/bradonfire/winnerwinnerchickendinner/raw/master/reference-work/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Exodus repository</summary>
+		<description lang="en">Exodus repository</description>
+		<platform>all</platform>
+		<forum>https://www.tvaddons.co/forums</forum>
+        <website>https://www.tvaddons.co</website>
+	</extension>
+</addon>
+
+<addon id="repository.hsk_notfall" name="[COLOR blue]HSK Notfall Repo[/COLOR]" version="1.0.0" provider-name="[COLOR skyblue]HSK-DE[/COLOR]">
+    <extension point="xbmc.addon.repository" name="HSK Notfall REPOSITORY">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/hsk.mini.repo/master</datadir>
+	</dir>
+	</extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>[COLOR lime]HSK NOTFALL REPOSITORY[/COLOR]</summary>
+        <description>[COLOR skyblue]
+Hardware Software Kodi DE Notfall Repo
+
+Kodimans Forum:
+https://www.kodiman.net/[/COLOR].
+</description>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon id="repository.lastship" name="Lastship Repository" version="1.0.1" provider-name="Lastship">
+	<extension point="xbmc.addon.repository" name="Lastship Repository">
+	<dir>
+        <info compressed="false">https://github.com/lastship/lastshipRepo/raw/master/addons.xml</info>
+        <checksum>https://github.com/lastship/lastshipRepo/raw/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://github.com/lastship/lastshipRepo/raw/master/zips/</datadir>
+	</dir>
+    <dir>
+		<info compressed="false">https://github.com/lastship/lastship-common/raw/master/addons.xml</info>
+		<checksum>https://github.com/lastship/lastship-common/raw/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://github.com/lastship/lastship-common/raw/master/zips/</datadir>
+    </dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Lastship Repository</summary>
+		<description lang="en">Lastship Repository</description>
+		<platform>all</platform>
+		<forum>http://lastship.square7.ch/forum/</forum>
+   	</extension>
+</addon>
+
+<addon id="repository.master.skinbase" name="[COLOR aqua]GUIDOS[/COLOR] [COLOR orange]SKINBASE[/COLOR]" version="3.1.5" provider-name="[COLOR lime]GUIDO[/COLOR] | [COLOR aqua]Kodiman[/COLOR] | [COLOR orange]HSK-DE[/COLOR]">
+	<extension point="xbmc.addon.repository" name="GUIDOS MASTER SKINBASE REPO">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17.1/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase17.2/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase18/master/</datadir>
+	</dir>
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/kaffepausse71/skinbase18.1/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Guidos Master SKINBASE Repo</summary>
+		<description>
+In [COLOR aqua]G[/COLOR]uido[COLOR aqua]s[/COLOR] [COLOR orange]S[/COLOR]KINBAS[COLOR orange]E[/COLOR] findet ihr Skins für die Kodi Versionen von 17 bis 18 aus aller Welt.
+Viele sind selber gestaltet und einige haben wir aus anderen Repos oder auch Wizards wie zu Fanrific Wizard,Classik Nancy Skins und Ares Wizard.
+Die Skins sind für die jeweiligen Kodi Versionen farblich und mit Nummern markiert.Des weiteren findet ihr auch weitere Repos für Skins sowie Bilder Addons für Hintergrundbilder und Addons die für die Skins benötigt werden.
+Die SkinBase wird ständig erweitert und verbessert.Viel Spass wünschen euch Guido und Waller.[/COLOR][aqua]KODI 17 Schrift Aqua,[COLOR orange]KODI 18 Schrift Orange[/COLOR]
+</description>
+		<platform>all</platform>
+        <forum>https://www.facebook.com/groups/716337198478240/</forum>
+        <website>https://www.facebook.com/groups/716337198478240/</website>
+	</extension>
+</addon>
+
+<addon id="repository.walle" name="Wallers-Skin-Repo" version="1.0.0" provider-name="[COLOR lime]Walle[/COLOR] | [COLOR aqua]Guido[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Wallers REPO">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/</datadir>
+	</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>Wallers Repo</summary>
+		<description> Viel Spass und besucht mal meine Seite .
+https://waller-skins.jimdo.com/
+</description>
+		<platform>all</platform>
+        <forum></forum>
+        <website>https://waller-skins.jimdo.com/</website>
+	</extension>
+</addon>
+
+<addon id="repository.xstream" name="xStream Repository" version="1.1.2" provider-name="xStream-Team">
+    <extension point="xbmc.addon.repository" name="xStream Repository">
+        <info compressed="false">https://raw.github.com/lastship/xStreamRepo/master/addons.xml</info>
+        <checksum>https://raw.github.com/lastship/xStreamRepo/master/addons.xml.md5</checksum>
+        <datadir zip="true">https://raw.github.com/lastship/xStreamRepo/master/zips/</datadir>
+        <dir>
+            <info compressed="false">https://raw.github.com/lastship/xStreamRepo/master/addons.xml</info>
+            <checksum>https://raw.github.com/lastship/xStreamRepo/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/lastship/xStreamRepo/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de">xStream Repository</summary>
+        <description lang="de">Dies ist das offizielle xStream Addon-Verzeichnis.[CR]Bei der Bereitstellung einer neuen Version von xStream wird diese auf Funktionalität geprüft. Sollten dennoch Probleme auftreten benachrichtige bitte das offizielle xStream-Team.</description>
+        <disclaimer lang="de">Die dargestellten Inhalte des in diesem Verzeichnis enthaltenen Addons werden von den Erstellern des Addons weder gehostet oder verbreitet, noch stehen die Ersteller in irgendeiner Beziehung zu den Content-Anbietern.</disclaimer>
+        <description lang="en">Download and install xStream from the Official xStream Addon-Repository.[CR]Before a new version of xStream is provided to this repository the addon was checked for functionality. Please informs the official xStream-Team if you should have problems anyway.</description>
+        <disclaimer lang="en">The creators of the addon in this repository do not host or distribute any of the content displayed by the addon nor do they have any affiliation with the content providers.</disclaimer>
+        <forum>http://lastship.square7.ch/forum/forumdisplay.php?fid=15 | http://xstream-addon.square7.ch</forum>
+        <website>https://xstream-kodi.github.io</website>
+        <platform>all</platform>
+    </extension>
+</addon>
+
+<addon
+  id="resource.language.de_de"
+  version="3.0.16"
+  name="German"
+  provider-name="Team Kodi">
+  <requires>
+    <import addon="kodi.resource" version="1.0.0"/>
+  </requires>
+  <extension
+    point="kodi.resource.language"
+    locale="de_DE">
+    <charsets>
+      <gui unicodefont="false">CP1252</gui>
+      <subtitle>CP1252</subtitle>
+    </charsets>
+    <sorttokens>
+      <token>The</token>
+      <token>Der</token>
+      <token>Die</token>
+      <token>Das</token>
+    </sorttokens>
+  </extension>
+  <extension point="kodi.addon.metadata">
+    <summary lang="en">German language pack</summary>
+    <description lang="en">German version of all texts used in Kodi.</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
+<addon id="script.artistslideshow" name="Artist Slideshow" version="2.1.1" provider-name="pkscout,ronie">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.addon" version="14.0.0"/>
+		<import addon="script.module.requests" version="2.3.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>
+v.2.1.1
+- added option to download artist thumb from theaudiodb.com
+- added option to store service information files in local artist path
+- change to cache timing including decreased cache time if donating to image services
+- rearranged settings
+- fixes to exception handling syntax to be consistent with Python3
+- fixes for compatibility with Windows Store version of Kodi
+		</news>
+		<summary lang="ar">حمل المزيد من الصور والمعلومات عن الفنان الذى يُغنِى حالياً</summary>
+		<summary lang="be">Download images and additional info of the currently playing artist</summary>
+		<summary lang="bg">Сваля изображения и допълнителна инф. за изпълнителя на текущата песен</summary>
+		<summary lang="ca">Descàrrega imatges i informació addicional de l'artista que s'està reproduint</summary>
+		<summary lang="da">Download billeder og ekstra info om kunstneren, der spiller i øjeblikket</summary>
+		<summary lang="de">Downloade Bilder und zusätzliche Informationen des aktuellen abspielenden Künstlers.</summary>
+		<summary lang="el">Κατεβάστε εικόνες και επιπλέον πληροφορίες του τρέχοντος καλλιτέχνη</summary>
+		<summary lang="en">Download images and additional info of the currently playing artist</summary>
+		<summary lang="en_NZ">Download images and additional info of the currently playing artist</summary>
+		<summary lang="en_US">Download images and additional info of the currently playing artist</summary>
+		<summary lang="es">Descarga imágenes e información adicional del artista que esté sonando</summary>
+		<summary lang="es_AR">Bajá imágenes e información adicional sobre el artista </summary>
+		<summary lang="fr">Télécharger les images et les informations additionnelles de l'artiste en cours de lecture</summary>
+		<summary lang="fr_CA">Télécharger des images et des infos additionnelles sur l'artiste écouté</summary>
+		<summary lang="gl">Descarga imaxes e info. adicional do artista que está a soar</summary>
+		<summary lang="he">הורד תמונות ומידע נוסף על האמן המושמע כעת</summary>
+		<summary lang="hr">Preuzimite slike i dodatne informacije o trenutno reproduciranom izvođaču</summary>
+		<summary lang="hu">Képeket és kiegészítő információkat tölt le a jelenleg játszott előadóról</summary>
+		<summary lang="it">Scarica immagini ed informazioni addizionali dell'artista attualmente in esecuzione</summary>
+		<summary lang="ja">現在再生中のアーティストの画像と追加情報をダウンロードする</summary>
+		<summary lang="ko">현재 재생중인 아티스트의 이미지와 추가 정보 다운로드</summary>
+		<summary lang="nl">Downloaden van afbeeldingen en extra informatie van te horen artiest</summary>
+		<summary lang="no">Last ned bilder og ytterligere informasjon om artisten som spilles av</summary>
+		<summary lang="pl">Pobieraj obrazy i dodatkowe informacje o aktualnie odtwarzanym wykonawcy</summary>
+		<summary lang="pt">Transferir imagens e info adicional do artista em reprodução agora</summary>
+		<summary lang="pt_BR">Transferência de imagens e informações adicionais de artistas que estejam sendo reproduzidos</summary>
+		<summary lang="ru">Загрузить фото и дополнительную информацию об воспроизводимом исполнителе</summary>
+		<summary lang="sk">Stiahnuť obrázky a dodatočné informácie o práve hrajúcich interpretoch</summary>
+		<summary lang="sl">Naložite slike in dodatne informacije, za trenutno predvajanega izvajalca</summary>
+		<summary lang="sv">Ladda ner bilder samt ytterligare information om den spelade artisten</summary>
+		<summary lang="zh">下载当前播放艺人的图片和附加信息</summary>
+		<description lang="ar">ملحق يساعدك على تَنِزِيل صور ومعلومات إضافيه عن الفنان الذى تستمع اليه حالياً من موقع fanart.tv و theaudiodb.com. كما يمكنك جعل جلد واجهتك الحالى يستخدم كل ما سبق ﻹنشاء عروض شرائح للفنان الذى تستمع إليه</description>
+		<description lang="bg">Добавката сваля картинки и допълнителна информация от www.fanart.tv и www.theaudiodb.com за изпълнителя който звучи в момента. Картинките, заедно с фанарт изображенията на изпълнителя, може да се ползват от облика, за създаването на слайдшоу за изпълнителя, който звучи в момента.</description>
+		<description lang="ca">Complement per descarregar imatges i informació addicional de fanart.tv i theaudiodb.com de l'artista que s'està reproduint. Les imatges, juntament amb les imatges locals d'artistes, i la informació, pot ser utilitzada per la pell per crear una presentació de diapositives per a l'artista que s'està escoltant.</description>
+		<description lang="de">Addon um Bilder und zusätzliche Informationen von fanart.tv und theaudiodb.com zum aktuell gespielten Künstler herunterzuladen. Diese Bilder können zusammen mit den lokalen Künstlerbildern und Infos vom Skin genutzt werden, um eine Slideshow für den aktuell angehörten Künstler zu erstellen.</description>
+		<description lang="el">Πρόσθετο για τη λήψη εικόνων και επιπλέον πληροφοριών από το fanart.tv  και το theaudiodb.com για τον τρέχοντα καλλιτέχνη. Οι εικόνες, μαζί με τοπικές εικόνες του καλλιτέχνη καθώς και πληροφορίες, μπορούν να χρησιμοποιηθούν από το κέλυφος για τη δημιουργία παρουσιάσεων διαφανειών του καλλιτέχνη η μουσική του οποίου ακούγεται.</description>
+		<description lang="en">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_NZ">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="en_US">Addon to download images and additional information from fanart.tv and theaudiodb.com of the currently playing artist. The images, along with local artists' images, and info can be used by the skin to create a slideshow for the artist being listened to.</description>
+		<description lang="es">Addon para descargar imágenes e información adicional de fanart.tv y theaudiodb.com del artista que se está reproduciendo. Las imágenes, junto con imágenes de artistas locales, y la información puede ser utilizada por la piel para crear una presentación de diapositivas para el artista que se está escuchando.</description>
+		<description lang="fr_CA">Addiciel pour télécharger des images et des informations additionnelles sur fanart.tv et theaudiodb.com de l'artiste en cours d'écoute. Les images, ainsi que les images locales de l'artiste, et les infos peuvent être utilisées par l'habillage pour créer un diaporama pour l'artiste en cours d'écoute.</description>
+		<description lang="gl">Complemento para descargar imaxes e información adicional de fanart.tv e theaudiodb.com do artista que está a soar. Estas imaxes, xunto cas do artista gardadas en local e a información pódeas usar o tema para crear unha presentación. </description>
+		<description lang="he">הרחבה להורדת תמונות ומידע נוסף על האמן המושמע כעת מ-fanart.tv ו- theaudiodb.com. התמונות, בנוסף לתמונות אמנים מקומיות והמידע על אמן יכולים לשמש את המעטפת ליצירת מצגת עבור האמן המושמע כעת.</description>
+		<description lang="hr">Dodatak za preuzimanje slika i dodatnih informacije trenutno reproduciranog izvođača s fanart.tv, theaudiodb.com i theaudiodb.com. Slike, zajedno s lokalnim slikama izvođača i informacijama mogu se koristiti s presvlakom za stvaranje slikovne prezentacije izvođača koji se sluša.</description>
+		<description lang="hu">A Kiegészítő letölt képeket és infromációkat a fanart.tv és theaudiodb.com oldalakról az éppen hallgatott előadóhoz. A képek a helyben tárolt képekkel együtt felhasználhatóak a Felszín által diavetítéshez.</description>
+		<description lang="it">Addon per scaricare immagini ed informazioni aggiuntive da fanart.tv e theaudiodb.com sull'artista attualmente in esecuzione. Le immagini possono essere usate dallo skin, insieme a quelle locali, per creare una presentazione  per l'artista che si sta ascoltando.</description>
+		<description lang="ko">현재 재생중인 아티스트의 이미지와 추가정보를 fanart.tv 와 theaudiodb.com 에서 다운로드합니다. 다운로드한 이미지와 정보는 로컬 이미지와 함께 현재 재생중인 음악의 아티스트 슬라이드쇼에 사용할 수 있습니다.</description>
+		<description lang="nl">Add-on om afbeeldingen en bijkomende informatie van Fanart.tv en theaudiodb.com van de te horen artiest binnen te halen. de afbeeldingen, net als de lokaal aanwezige artiest-afbeeldingen en -info kunnen gebruikt worden door de skin om een diashow te tonen van de artiest di nu beluisterd wordt.</description>
+		<description lang="no">Tillegg for å laste ned bilder og ytterligere informasjon fra fanart.tv og theaudiodb.com for artisten som spilles av for øyeblikket. Bildene, sammen med lokale artistbilder og info, kan bli brukt av skallet til å lage en lysbildefremvisning for artisten som blir lyttet til for øyeblikket.</description>
+		<description lang="pl">Wtyczka pobiera obrazy i dodatkowe informacje z fanart.tv oraz theaudiodb.com o aktualnie odtwarzanym wykonawcy. Obrazami wraz z informacjami o wykonawcach, mogą być wykorzystywane przez skórę do tworzenia pokazu slajdów dla artysty, którego aktualnie słuchasz.</description>
+		<description lang="pt">Um add-on para transferir imagens e informação adicional do artista em reprodução no momento, a partir de fanart.tv e theaudiodb.com. As imagens e a informação, assim como as imagens locais dos artistas, podem ser usadas pelo tema para criar uma apresentação de slides do artista em escuta no momento.</description>
+		<description lang="pt_BR">Addon para download de imagens e informações adicionais do artista que está sendo reproduzido provido por fanart.tv e theaudiodb.  Tais dados e imagens serão usados pelas skins para criarem um slideshow dos artistas quando estivermos escutando-os.</description>
+		<description lang="ru">Дополнение для загрузки изображений и дополнительной информации о воспроизводимом исполнителе с ресурсов fanart.tv and theaudiodb.com. Загруженные изображения и доп. информация, наравне с локальными, могут быть использованы для создания слайд-шоу во время прослушивания композиций.</description>
+		<description lang="sl">Dodatek za prenos slik in dodatnih informacij  iz fanart.tv in theaudiodb.com za trenutno predvajanega izvajalca. Slike, skupaj z lokalnimi slikami izvajalcev ter informacije, se lahko uporabljajo s preobleko za ustvarjanje diaprojekcije slik izvajalca, ki ga trenutno poslušate.</description>
+		<description lang="sv">Tillägg för att ladda ner bilder och tilläggsinformation från fanart.tv och theaudiodb.com om artisten som spelas för tillfället. Bilderna, tillsammans med lokala artistbilder och information, kan användas av skinnet för att skapa ett bildspel av artisten man lyssnar på.</description>
+		<description lang="zh">从fanart.tv和theaudiodb.com下载当前播放艺人的图片和附加信息的插件。这此图片可以和本地艺人图片及信息一起，被皮肤用来创建正收听的艺人的幻灯片。</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?t=124880</forum>
+		<website>http://wiki.xbmc.org/index.php?title=Add-on:Artist_Slideshow</website>
+		<email>artistslideshow.xbmc@gmail.com</email>
+		<source>https://github.com/pkscout/script.artistslideshow</source>
+	</extension>
+</addon>
+
+<addon id="script.artistslideshow-helper" name="Artist Slideshow Helper" version="0.4.4" provider-name="pkscout">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+		<import addon="xbmc.addon" version="14.0.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+	</requires>
+	<extension point="xbmc.python.script" library="default.py">
+		<provides>executable</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<news>v.0.4.4
+			  - fix for crash when image migration is disabled</news>
+		<summary lang="de">Hilft bei der Verwaltung von Interpreten-, Hintergrund- und Cache-Bilder</summary>
+		<summary lang="el">Βοηθός Διαχείρισης Αποθηκευμένων Εικόνων Καλλιτέχνη</summary>
+		<summary lang="en">Help manage Artist Slideshow Cache Images</summary>
+		<summary lang="en_NZ">Help manage Artist Slideshow Cache Images</summary>
+		<summary lang="en_US">Help manage Artist Slideshow Cache Images</summary>
+		<summary lang="es">Ayudar a controlar cache de imágenes de presentación de artistas</summary>
+		<summary lang="fr_CA">Aide à gérer lles images du cache du diaporama des artistes</summary>
+		<summary lang="gl">Axudar a xestionar a Caché de Imaxes na presentación deslizante de Artistas</summary>
+		<summary lang="hu">Művész képek gyorsítótárazásának menedzselése</summary>
+		<summary lang="is">Hjálpar við að halda utan um myndir í biðminni fyrir skyggnusýningar listamanna</summary>
+		<summary lang="it">Aiuta la gestione della cache immagini artista</summary>
+		<summary lang="ko">Artist Slideshow 캐시 이미지 관리 도우미</summary>
+		<summary lang="lt">Padeda tvarkyti atlikėjų skaidrių demonstracijos talpyklos paveikslėlius</summary>
+		<summary lang="nl">Helpt bij het beheren van artiesten diashow Cache afbeeldingen</summary>
+		<summary lang="pl">Pomaga zarządzać, pokazem slajdów artysty, pamięci podręcznej</summary>
+		<summary lang="pt">Ajuda a gerir as imagens de cache de Artist Slideshow</summary>
+		<summary lang="pt_BR">Ajuda a gerenciar Imagens do cache de artistas do script Artist Slideshow</summary>
+		<summary lang="sv">Hantera cachade bilder för artistbildspel</summary>
+		<summary lang="zh">帮助管理个歌手幻灯片缓存图像</summary>
+		<description lang="el">Το Πρόσθετο Artist Slideshow Helper παρέχει μια λίστα ονομάτων καλλιτεχνών συνδεδεμένων με τον αντίστοιχο φάκελο hash στο φάκελο εικόνων του Artist Slideshow, προκειμένου να διευκολύνει λίγο τη διαχείρισή τους. Σας επιτρέπει, επίσης, να μεταφέρετε εικόνες εκτός του φακέλου προσωρινής αποθήκευσης, σε κάποιον άλλο τοπικό φάκελο.</description>
+		<description lang="en">Artist Slideshow Helper provides a list artist names matched to their hash directory in your Artist Slideshow image directory to make things a little easier to manage.  It also allows you to migrate images out of the cache directory into a local directory structure.</description>
+		<description lang="en_US">Artist Slideshow Helper provides a list artist names matched to their hash directory in your Artist Slideshow image directory to make things a little easier to manage.  It also allows you to migrate images out of the cache directory into a local directory structure.</description>
+		<description lang="es">Artist Slideshow Helper proporciona una lista de nombres de los artistas que coinciden con su carpeta de imágenes de presentación del artista para hacer las cosas un poco más fáciles de manejar. También le permite migrar las imágenes fuera del directorio de caché en una estructura de directorio local.</description>
+		<description lang="fr_CA">L'assistant du diaporama des artistes fournit une liste des noms d'artistes jumelé à leur répertoire de hachage dans votre répertoire d'images du diaporama des artistes pour rendre les choses un peu plus facile à gérer. Il vous permet également de migrer des images sur le répertoire de cache dans une structure de répertoire local.</description>
+		<description lang="gl">O Asistente de Diapositivas de Artistas proporciónalle unha listaxe de nomes de artistas ligada ao hash dos seus cartafoles no cartafol das imaxes de artistas para facer as cousas algo máis doadas. Permítelle tamén migrar as imaxes dende o cartafol da caché a unha estrutura de cartafol local.</description>
+		<description lang="hu">Művész Diavetítés Segítő biztosítja a művészek neveinek a listáját összekapcsolva a  Művész Diavetítés  kép könyvtárral hogy  egyszerűbb legyen kezelni.  Lehetővé teszi hogy képeket migráljon a gyorsítótár könyvtárból egy helyi könyvtárstruktúrába.</description>
+		<description lang="is">Artist Slideshow Helper gefur upp lista af listamannanöfnum samtengdum við hash skráasafn í Artist Slideshow myndasafni þínu til að auðvelda aðeins utanumhald.  Það leyfir þér líka að flytja út myndir úr skráasafni biðminnis yfir í nærtækt skráasafn þitt.</description>
+		<description lang="it">Artist Slideshow Hlper provvede un'accoppiamento tra il nome di un artista in lista con la sua cartella immagini artista per rendere le cose un po' più semplici da gestire. Consente inoltre di migrare le immagini fuori dalla directory della cache verso una cartella locale</description>
+		<description lang="ko">Artist Slideshow의 이미지가 저장된 캐시 디렉터리에서 해시값과 일치하는 아티스트를 목록화하여 관리상의 편의를 제공합니다. 또 캐시 디텍터리의 이미지를 사용자 로컬 디렉터리로 마이그레이션 해 줍니다.</description>
+		<description lang="lt">Artist Slideshow Helper pateikia atlikėjų vardų sąrašą sutapdintą su jų maišos katalogu Artist Slideshow atvaizdų kataloge, kad būtų lengviau tvarkyti. Jis taip pat leidžia migruoti atvaizdus iš talpyklos katalogo į vietinio katalogo struktūrą.</description>
+		<description lang="nl">Artiesten divavoorstellingshelper  Biet een lijst van artiestennamen aan wat overeenkomt naar hun hashmap, dit in jouw artiesten diavoorstelling afbeeldingen map zodat het iets gemakkelijker is te beheren. het geeft je ook de mogelijkheid afbeeldingen te verplaatsen uit de cache map in een lokale map structuur.</description>
+		<description lang="pl">Artist Slideshow Helper zawiera listę hash nazw wykonawców dopasowaną do katalogów pokazu slajdów artysty, co pozwala łatwiej zarządzać obrazami. Pozwala również, przenosić zdjęcia z katalogu pamięci podręcznej do lokalnej struktury katalogów.</description>
+		<description lang="pt">O Artist Slideshow Helper exibe uma lista de nomes de artistas correspondentes aos seus valores hash na pasta de imagens Artist Slideshow, tornando tudo mais fácil de gerir. Também permite a exportação de imagens da pasta de cache para uma estrutura de pastas local.</description>
+		<description lang="pt_BR">Artist Slideshow Helper fornece uma lista com nomes de artistas combinados com o seu diretório de hash do diretório de imagens do Artist Slideshow para tornar as coisas um pouco mais fácil de gerir. Ele também permite que você migre imagens para fora do diretório do cache em uma estrutura de diretório local.</description>
+		<description lang="sv">Artistbildspelsassistenten tillhandahåller en lista med artistnamn som är hashmatchade till mappar i din bildmapp för artistbildspel för att underlätta hanteringen av dem. Den hjälper dig också att migrera bilder ut från mappen till en lokal mappstruktur.</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=181454</forum>
+		<website>http://wiki.xbmc.org/index.php?title=Add-on:Artist_Slideshow-Helper</website>
+		<email>artistslideshow.xbmc@gmail.com</email>
+		<source>https://github.com/pkscout/script.artistslideshow-helper</source>
+	</extension>
+</addon>
+
+  <addon id="script.artwork.downloader" name="Artwork Downloader" version="14.1.0.0" provider-name="Martijn">
+  <requires>
+    <import addon="xbmc.python"                 version="2.1.0"/>
+    <import addon="xbmc.json"                   version="6.0.0"/>
+    <import addon="xbmc.addon"                  version="12.0.0"/>
+    <import addon="script.module.simplejson"    version="3.3.0"/>
+    <import addon="script.common.plugin.cache"  version="1.3.0"/>
+  </requires>
+  <extension point="xbmc.python.script"         library="default.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="be">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
+    <summary lang="da">Downloader grafik til TV-serier, Film og Musikvideoer i dit bibliotek</summary>
+    <summary lang="de">Lade Artworks fÃ¼r Filme, Serien und Musikvideos deiner Bibliothek herunter</summary>
+    <summary lang="el">Κατεβάζει Εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας</summary>
+    <summary lang="en">Downloads Artwork for TV shows, Movies and Musicvideos in your library</summary>
+    <summary lang="es">Descargue Artwork de Series, Pelí­culas y Videoclips a su biblioteca</summary>
+    <summary lang="fr">Téléchargez les Artworks pour les séries TV, les films et les clip vidéo de votre médiathèque</summary>
+    <summary lang="gl">Descargue na súa biblioteca Ilustracións para as Series de TV, Filmes e Vídeos Musicais</summary>
+    <summary lang="he">מורי עטיפות לתוכניות טלויזיה,סרטים,וסרטי מוסיקה בספריה שלך</summary>
+    <summary lang="hr">Preuzimte slike omota TV serija, filmova i glazbenih spotova u vašoj kolekciji</summary>
+    <summary lang="hu">Művészképek letöltése TV műsorok, filmek és videóklipek számára</summary>
+    <summary lang="it">Scarica artwork per Serie TV, Film e Video musicali della tua libreria</summary>
+    <summary lang="ko">라이브러리의 TV 쇼, 영화, 뮤직비디오의 아트워크 다운로드</summary>
+    <summary lang="nl">Download Artwork voor TV series, Films en Muziekvideos in jouw bibliotheek</summary>
+    <summary lang="pl">Pobiera grafiki dla Seriali TV, FilmÃ³w i TeledyskÃ³w z twojej biblioteki</summary>
+    <summary lang="pt">Transfira Artwork de Séries TV, Filmes e Concertos para sua biblioteca</summary>
+    <summary lang="pt_BR">Transferências Artes de Seriados, Filmes e Concertos para suas Coleções.</summary>
+    <summary lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici</summary>
+    <summary lang="sv">Laddar ner bilder och extramaterial för TV-serierna, filmerna och musikvideorna i ditt bibliotek</summary>
+    <summary lang="zh">下载剧集、电影和音乐电视艺术图片到资料库</summary>
+    <description lang="be">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
+    <description lang="da">Henter alle tilgængelige illustrationer til TV-serier, Film og Musikvideoer i dit bibliotek. Tjek indstillingerne for at se understøttede illustrationer.[CR]Kilder til illustrationer[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Bemærk:[CR]Tjek dit skin for at se, hvilke typer illustrationer, der understøttes![CR]Hver TV-serie/Film skal have sin egen mappe![CR]Skin-integration:[CR]Se 'readme' fil</description>
+    <description lang="de">Downloadet alle verfügbaren Artworks für TV Sendungen, Filme und Musikvideos in deine Datenbank. Überprüfe die Optionen für nicht unterstützte Artwork[CR]Artworkquellen: [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Überprüfe dein Skin ob Artwork unterstützt wird![CR]Jede TV Sendung/Film braucht seinen eigenen Ordner![CR]Skin Integration:[CR]Siehe Readme Datei</description>
+    <description lang="el">Κατεβάζει όλες τις διαθέσιμες εικόνες για τις Τηλεοπτικές Σειρές, τις Ταινίες και τα Μουσικά Βίντεο της συλλογής σας. Ελέγξτε τις επιλογές για υποστηριζόμενες εικόνες[CR]&#10;Πηγές Εικόνων:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;Σημείωση:[CR]Ελέγξτε το κέλυφός σας για να δείτε τι είδους εικόνες υποστηρίζονται![CR]Κάθε Σειρά/Ταινία πρέπει να έχει το δικό της φάκελο![CR]&#10;Για ενσωμάτωση στο κέλυφος:[CR]Δείτε το αρχείο readme</description>
+    <description lang="en">Downloads all available artwork for TV shows, Movies and Musicvideos in your library. Check the options for supported artwork[CR]Artwork sources:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check your skin to see what type of artwork is supported![CR]Each TV Show/Movie must have its own folder![CR]Skin integration:[CR]See readme file</description>
+    <description lang="es">Descarga artwork de programas de televisión, películas y videos musicales en su biblioteca. Marque las opciones correspondientes compatible d artwork[CR]Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remark:[CR]Check su piel para ver qué tipo de obra de arte es compatible![CR]Cada Show de TV\/película debe tener su propia carpeta![CR]Integración de la piel: [CR] consulte el archivo Léame</description>
+    <description lang="fr">Téléchargez tous les artworks disponibles pour les séries TV, les films et les vidéos musicales de votre médiathèque. Regardez les options pour les artsworks supportés[CR]Sources des Artworks : [CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Remarques : [CR]Véifiez votre thême pour savoir quel type d'artwork est supporté ![CR]Chaque Série TV/Film doit avoir son propre dossier ![CR]Intégration dans un thême :[CR]Regardez le fichier readme.txt</description>
+    <description lang="gl">Descarga todas as ilustracións dispoñíbeis para as series de TV, filmes e vídeos musicais da súa biblioteca. Verifique as opcións de soporte de ilustracións[CR]Fontes das ilustracións:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre:[CR]Verifique o seu tema para ver que tipo de ilustración é soportada.[CR]Cada Serie de TV/Filme debe ter o seu propio cartafol.[CR]Integración no tema:[CR]Ver o ficheiro readme</description>
+    <description lang="hr">Preuzmi sve dostupne slike omota za TV serije, filmove i glazbene spotove u vašoj zbirci. Provjerite mogućnosti za podržane slike omota[CR]Izvori slika omota:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Napomena:[CR]Provjerite vašu presvlaku da bi vidjeli koja vrsta presvlake je podržana![CR]Svaka TV serija/Film mora imati svoju vlastitu mapu![CR]Integracija presvlake:[CR]Pogledajte datoteku uputa</description>
+    <description lang="hu">Letölti az összes rendelkezésre álló művészképet az adatbázisában található TV-műsorokhoz, filmekhez és videóklipekhez. Ellenőrizze a beállításokat a támogatott művészképekhez[CR]Művészkép források:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Megjegyzés:[CR]Ellenőrizze, hogy az alkalmazott skin miyen művészképeket támogat![CR]Minden filmnek/TV-műsornak saját mappában kell lennie![CR]Skin integráció:[CR]Olvassa fel a readme fájlt</description>
+    <description lang="it">Scarica tutti gli artwork disponibili per le serie TV, i film ed i video musicali presenti nella libreria. Controlla le opzioni per gli artwork supportati[CR]Fonti artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Nota:[CR]Controlla la tua skin per vedere che tipi artwork sono supportati![CR]Ogni Serie TV/Film deve avere una cartella propria![CR]Integrazione skin:[CR]Vedi file readme</description>
+    <description lang="ko">라이브러리에 있는 TV 쇼, 영화, 뮤직비디오의 사용 가능한 모든 아트워크를 다운로드합니다. 지원하는 아트워크는 옵션을 확인하세요[CR]아트워크 소스:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] 참고:[CR]사용하는 스킨이 어떤 형식의 아트워크를 지원하는지 확인하세요![CR]각 TV 쇼/영화는 자신의 폴더에 있어야 합니다![CR]스킨 통합:[CR]readme 파일 참고</description>
+    <description lang="nl">Download alle beschikbare artwork voor TV series, Films en Muziekvideos in jouw bibliotheek. Bekijk de opties voor ondersteunde artwork[CR]Artwork bronnen:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Opmerking:[CR]Controleer jouw skin om te bepalen welke artwork deze ondersteund![CR]Elke TV serie/Film moet zich in zijn eigen folder bevinden![CR]Skin integratie:[CR]Kijk in de readme bestand</description>
+    <description lang="pl">Pobierz wszystkie dostępne grafiki dla seriali TV, filmów i teledysków ze swojej biblioteki. Sprawdź ustawienia aby zobaczyć wszystkie dostępne grafiki[CR]&#10;    Źródła grafik:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10;    Uwaga:[CR]Sprawdź jakie rodzaje grafik wspiera twoja skóra![CR]Każdy Serial TV/Film musi być w osobnym folderze![CR]&#10;    Integracja ze skórą:[CR]Przeczytaj plik readme&#10;    </description>
+    <description lang="pt">Transfere toda a artwork disponível para Séries TV, Filmes e Vídeoclipes na sua biblioteca. Verifique a artwork suportada nas opções.[CR]Fontes de Artwork:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembre-se:[CR]Verifique o seu tema para ver que tipo de artwork é suportada![CR]Cada Série TV/Filme deve ter a sua própria pasta![CR]Integração no tema:[CR]veja o ficheiro readme</description>
+    <description lang="pt_BR">Download todas as artworks disponíveis para Seriados, Filmes e Concertos em sua coleção. Verifique as opções de artes suportadas. &#10;Artwork fontes:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]Lembrete:[CR]Verifique se sua skin tem suporte para os tipos de artes disponíveis![CR]Cada Seriado/Filme ou Concerto deve estar em pastas próprias![CR]Skin integração:[CR]Veja o arquivo leia-me.</description>
+    <description lang="sk">Sťahuje umeleckú grafiku k TV seriálom, filmom a hudobným videám vo Vašej knižnici. Na overenie podporovanej umeleckej grafiky pozrite nastavenia.&#10;Zdroje umeleckej grafiky:&#10;www.fanart.tv&#10;www.thetvdb.com&#10;www.themoviedb.org&#10;Poznámka:&#10;Aby ste si overili aká umelecká grafika je podporovaná, skontrolujte Váš Vzhľad!&#10;Každý TV seriál / film musí byť v samostatnom priečinku!&#10;Integrácia so vzhľadom:&#10;Pozri readme súbor</description>
+    <description lang="sv">Laddar ner alla tillgängliga omslag, bakgrunder etc för TV-serier, Filmer och Musikvideos till ditt bibliotek. Kontrollera inställningar för vad som stöds[CR] Omslag, bakgrunder etc hämtas från följande resurser:[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR] Remark:[CR]Kontrollera skalinställningar för att ta reda på vad som stöds![CR]Varje TV-serie/Film måste ha sin egen mapp![CR] Skalintegration:[CR]See readme file</description>
+    <description lang="zh">下载剧集、电影和音乐电视的所有可用艺术图片到资料库。查看支持的艺术图片选项[CR]&#10;艺术图片来源：[CR]www.fanart.tv[CR]www.thetvdb.com[CR]www.themoviedb.org[CR]&#10; 备注：[CR]查看你的皮肤了解支持什么类型的艺术图片！[CR]每一个剧集/电影必须保存在单独的文件夹中！[CR]&#10; 皮肤集成：[CR]参见readme文件</description>
+    <disclaimer lang="be">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
+    <disclaimer lang="da">Ved fejl, forespørgsler eller generelle spørgsmål besøg Artwork Downloader-tråden i XBMCs forum.</disclaimer>
+    <disclaimer lang="de">FÃ¼r Fehler, VorschlÃ¤ge oder alggemeine Fragen, besuche das Artwork Downloader-Thema im XBMC-Forum (englisch).</disclaimer>
+    <disclaimer lang="el">Για προβλήματα, αιτήματα ή γενικές ερωτήσεις επισκεφθείτε το θέμα του Artwork Downloader στο forum του XBMC.</disclaimer>
+    <disclaimer lang="en">For bugs, requests or general questions visit the Artwork Downloader thread on the XBMC forum.</disclaimer>
+    <disclaimer lang="es">Para informar de errores, hacer peticiones o preguntas visiten el hilo Artwork Downloader en el foro de XBMC.</disclaimer>
+    <disclaimer lang="fr">Pour bugs, demandes ou questions générales visiter le thread Artwork Downloader sur le forum XBMC.</disclaimer>
+    <disclaimer lang="gl">Para erros, solicitudes ou preguntas en xeral visite o fio do Artwork Downloader no foro do XBMC.</disclaimer>
+    <disclaimer lang="he">לדווח תקלות,בקשות או שאלות כלליות בקר ברשימת artwork downloader בפורום של XBMC.</disclaimer>
+    <disclaimer lang="hr">Za greške, zahtjeve ili uobičajena pitanja posjetite Artwork Downloader na XBMC forumu.</disclaimer>
+    <disclaimer lang="hu">Hibabejelentéshez, kérésekhez vagy általános kérdésekkel kapcsolatban keresse az Artwork Downloader témát az XBMC fórumon.</disclaimer>
+    <disclaimer lang="it">Per la segnalazione di bug, richieste o domande generali visita il thread Artwork Downloader sul forum di XBMC.</disclaimer>
+    <disclaimer lang="ko">버그, 요청사항 및 일반적인 질문은  XBMC 포럼의 Artwork Downloader 글타래를 찾아 주세요.</disclaimer>
+    <disclaimer lang="nl">Voor fouten, verzoeken of algemene vragen kan je terecht op Artwork Downloader thread op het XBMC forum.</disclaimer>
+    <disclaimer lang="pl">By zgÅ‚osiÄ‡ bÅ‚Ä…d, proÅ›bÄ™ lub zadaÄ‡ pytanie odwiedÅº wÄ…tek poÅ›wiÄ™cony Artwork Downladerowi na forum XBMC.</disclaimer>
+    <disclaimer lang="pt">Para reportar erros, requisitar algo ou perguntar algo sobre o add-on, visite o tópico do Artwork Downloader no fórum do XBMC.</disclaimer>
+    <disclaimer lang="pt_BR">Para erros, requisições ou questões gerais visite o tópico do Artwork Downloader no Fórum XBMC.org</disclaimer>
+    <disclaimer lang="sk">Pre chyby, požiadavky alebo všeobecné otázky navštívte "Artwork Downloader" vlákno na XBMC fóre.</disclaimer>
+    <disclaimer lang="sv">För buggar, önskemål och frågor, besök Artwork Downloader tråden på XBMCs forum.</disclaimer>
+    <disclaimer lang="zh">错误报告、功能需求及常见问题，请访问XBMC论坛的Artwork Downloader专贴。</disclaimer>
+    <language></language>
+    <platform>all</platform>
+    <website></website>
+    <source>https://github.com/XBMC-Addons/script.artwork.downloader</source>
+    <forum>http://forum.xbmc.org/showthread.php?tid=114633</forum>
+    <email></email>
+  </extension>
+</addon>
+
+<addon id="script.lastship.artwork" version="2.0.1" name="Lastship Artwork" provider-name="Lastship Team">
+	<requires>
+		<import addon="xbmc.python" version="2.19.0"/>
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<summary>Themes for the Lastship Addon</summary>
+		<description>Themes for Lastship are maintained separately to make distribution of the the addon itself easier/faster.</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+
+<addon id="script.module.covenant" name="Covenant Module" version="1.00.030" provider-name="Covenant">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">Covenant</summary>
+	</extension>
+</addon>
+
+<addon id="script.module.lastship" name="Lastship Module" version="1.0.5" provider-name="LastShip">
+	<requires>
+		<import addon="xbmc.python" version="2.1.0" />
+	</requires>
+	<extension point="xbmc.python.module" library="lib" />
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="en">lastship</summary>
+		<description>Viel Spaß mit LastShip</description>
+		<news lang="de">- cinenator entfent
+- Update hdfilme</news>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.backgrounds" name="Skin Helper Service Backgrounds" version="1.0.21" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0"/>
+	</requires>
+
+    <extension point="xbmc.python.library" library="default.py" />
+    <extension point="xbmc.service" library="service.py" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper service for Kodi skins providing rotating backgrounds</summary>
+        <description>Helper service for Kodi skins providing rotating backgrounds</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.backgrounds</source>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.colorpicker" name="Skin Helper Service ColorPicker" version="1.0.11" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+		<import addon="script.module.pil" version="1.1.7"/>
+	</requires>
+    <extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Colorpicker for Kodi Skins. Part of Skin Helper Suite</summary>
+        <description>Colorpicker for Kodi Skins. Part of Skin Helper Suite</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.colorpicker</source>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.service" name="Skin Helper Service" version="1.1.3" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.13.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.simplejson" version="3.3.0"/>
+        <import addon="script.module.simplecache" version="1.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0"/>
+	</requires>
+
+    <extension point="kodi.context.item">
+        <menu id="kodi.core.main">
+            <item library="resources\lib\context_animatedart.py">
+              <label>32024</label>
+              <visible>!IsEmpty(Window(Home).Property(SkinHelper.EnableAnimatedPosters)) + Container.Content(movies)</visible>
+            </item>
+            <item library="resources\lib\context_pvr.py">
+                <label>32023</label>
+                <description>PVR artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnablePvrThumbs)) +
+                    [Window.IsActive(MyPVRChannels.xml) |
+                    Window.IsActive(MyPVRGuide.xml) | Window.IsActive(MyPVRRecordings.xml) |
+                    Window.IsActive(MyPVRTimers.xml) | Window.IsActive(MyPVRSearch.xml)]
+                </visible>
+            </item>
+            <item library="resources\lib\context_music.py">
+                <label>32023</label>
+                <description>Music artwork Configuration</description>
+                <visible>
+                    !IsEmpty(Window(Home).Property(SkinHelper.EnableMusicArt)) +
+                    [Container.Content(albums) | Container.Content(artists) | Container.Content(songs)]
+                </visible>
+            </item>
+        </menu>
+	</extension>
+
+    <extension point="xbmc.python.library" library="default.py" />
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+    </extension>
+	<extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Helper service for Kodi skins</summary>
+        <description>Helper service for Kodi skins</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.service</source>
+	</extension>
+</addon>
+
+	<addon id="script.skin.helper.widgets" name="Skin Helper Service Widgets" version="1.0.22" provider-name="marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.24.0"/>
+		<import addon="xbmc.addon" version="12.0.0"/>
+        <import addon="script.module.metadatautils" version="1.0.0" />
+        <import addon="script.module.simplecache" version="1.0.0"/>
+	</requires>
+
+	<extension point="xbmc.python.pluginsource" library="plugin.py">
+        <provides>video audio</provides>
+    </extension>
+    <extension library="service.py" point="xbmc.service" start="login" />
+
+	<extension point="xbmc.addon.metadata">
+		<summary lang="en">Ready to use widgets for all kind of media types</summary>
+        <description></description>
+		<language></language>
+		<platform>all</platform>
+		<license>GPL v2.0</license>
+		<forum>http://forum.kodi.tv/showthread.php?tid=235676</forum>
+		<website></website>
+		<source>https://github.com/marcelveldt/script.skin.helper.widgets</source>
+	</extension>
+</addon>
+
+<addon id="script.skinshortcuts" name="Skin Shortcuts" version="1.0.17" provider-name="BigNoid,marcelveldt">
+	<requires>
+		<import addon="xbmc.python" version="2.20.0"/>
+		<import addon="script.module.simplejson" version="3.3.0"/>
+		<import addon="script.module.unidecode" version="0.4.14"/>
+	</requires>
+	<extension point="xbmc.python.library" library="default.py"/>
+	<extension point="xbmc.addon.metadata">
+		<news>Template improvements and bug fixes</news>
+		<description lang="bg">Добавка за облици, която осигурява просто управление и списък с потребителски преки пътища (изисква поддръжка от облика)</description>
+		<description lang="de">Add-on für Skins für einfache Bearbeitung und Auflistung von benutzerdefinierten Verknüpfungen (erfordert Skin-Unterstützung)</description>
+		<description lang="el">Πρόσθετο για κελύφη, το οποίο παρέχει έναν απλό τρόπο διαχείρισης και κατηγοριοποίησης των συντομεύσεων του χρήστη (πρέπει να υποστηρίζεται από το κέλυφος)</description>
+		<description lang="en">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="en_NZ">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="en_US">Add-on for skins to provide simple managing and listing of user shortcuts (requires skin support)</description>
+		<description lang="es">Complemento para las pieles para proporcionar una gestión sencilla y lista de atajos de usuario (requiere que la piel lo soporte)</description>
+		<description lang="fr_CA">Addiciel pour habillages qui fournit une gestion simple et un listage des raccourcis utilisateurs (exige la prise en charge de l'habillage)</description>
+		<description lang="gl">Complemento que fornece aos temas dunha xestión sinxela dos atallos dos usuarios (require soporte do tema)</description>
+		<description lang="hr">Dodatak za presvlake koja omogućava jednostavno upravljanje i prikaz korisnikovih prečaca (zahtijeva podršku presvlake) </description>
+		<description lang="hu">Felszín kiegészítő amely könnyen kezelhetővé és listázhatóvá teszi a felhasználói parancsikonokat (Felszín támogatás szükséges)</description>
+		<description lang="is">Viðbót fyrir viðmót til að halda utan um flýtivísa og fá yfirlit yfir þá (þarfnast stuðnings frá viðmóti)</description>
+		<description lang="it">Add-on per gli skin per consentire un facile gestione ed elenco delle scorciatoie utente (richiede che lo skin lo supporti)</description>
+		<description lang="lt">Priedas teminėms išvaizdoms, kad jos turėtų galimybę paprastai tvarkyti ir atvaizduoti vartotojo  sukurtas nuorodas (reikalingas teminės išvaizdos palaikymas)</description>
+		<description lang="nl">Add-on voor skins om te voorzien in het eenvoudig beheren en sorteren van gebruikers snelkoppelingen (vereist skin ondersteuning)</description>
+		<description lang="no">Tillegg for enkel administrering og opplisting av bruker-snarveier i tema (krever støtte i tema)</description>
+		<description lang="pl">Wtyczka dla skór, która zapewnia proste zarządzanie i tworzenie list skrótów użytkownika (wymaga wsparcia skóry)</description>
+		<description lang="pt">Um add-on que permite que os temas tenham recursos simples para gerir e listar atalhos de utilizadores (é necessário suporte do tema)</description>
+		<description lang="pt_BR">Add-on para que as skins possam prover gerenciamento de lista de atalhos para o menu principal (requer suporte da skin)</description>
+		<description lang="ru">Дополнение для обложек, предоставляющее простой способ управления и список пользовательских ярлыков (требуется поддержка обложкой)</description>
+		<description lang="sv">Skinntillägg som tillhandahåller enkel hantering och översikt av användargenvägar (om skinnet stöder det)</description>
+		<description lang="zh">插件为皮肤提供了简单的管理和用户连接方式列表 (需要皮肤支持)</description>
+		<language></language>
+		<platform>all</platform>
+		<license>GNU General Public License, v2</license>
+		<forum>http://forum.xbmc.org/showthread.php?tid=178294</forum>
+		<website></website>
+		<email></email>
+		<source>https://github.com/BigNoid/script.skinshortcuts</source>
+	<assets>
+		<icon>icon.png</icon>
+		<fanart>fanart.jpg</fanart>
+	</assets>
+	</extension>
+</addon>
+
+<addon id="script.xbmcbackup"
+    name="Backup" version="1.1.2" provider-name="robweber">
+  <requires>
+	<!-- jarvis -->
+    <import addon="xbmc.python" version="2.24.0"/>
+    <import addon="script.module.httplib2" version="0.8.0" />
+    <import addon="script.module.oauth2client" version="4.1.2" />
+    <import addon="script.module.uritemplate" version="0.6" />
+    <import addon="script.module.yaml" version="3.11"/>
+    <import addon="script.module.googleapi" version="1.6.4" />
+	<import addon="script.module.requests" version="2.9.1" />
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="scheduler.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+    <summary lang="ar">إنسخ إحتياطياً قاعده بيانات إكس بى إم سى وملفات اﻹعدادات فى حاله وقوع إنهيار مع إمكانيه اﻹسترجاع</summary>
+    <summary lang="be">Backup and restore your XBMC database and configuration files in the event of a crash or file corruption.</summary>
+    <summary lang="bg">Добавката може да създава резервно копие на XBMC и възстановява (след това) Вашата база от данни и настройки, в случай на необходимост.</summary>
+    <summary lang="ca">Feu còpies de seguretat i restaureu la vostra base de dades de l'XBMC i dels fitxers de configuració en el cas de fallada o corrupció dels fitxers.</summary>
+    <summary lang="cs">Zálohování a obnovení XBMC databáze a konfiguračních souborů v případě chyby nebo poškození souborů.</summary>
+    <summary lang="da">Sikkerhedskopiér og genskab din XBMC database og konfigurationsfiler i tilfælde af et nedbrud eller en ødelagt fil.</summary>
+    <summary lang="de">Die XBMC Datenbank sichern und bei Dateiverlust oder Beschädigung wiederherstellen.</summary>
+    <summary lang="el">Δημιουργήστε αντίγραφα ασφαλείας της βάσης δεδομένων και των ρυθμίσεων του XBMC για την πιθανότητα σφαλμάτων ή καταστροφής αρχείων.</summary>
+    <summary lang="en">Backup and restore your Kodi database and configuration files in the event of a crash or file corruption.</summary>
+    <summary lang="en_NZ">Backup and restore your XBMC database and configuration files in the event of a crash or file corruption.</summary>
+    <summary lang="en_US">Backup and restore your XBMC database and configuration files in the event of a crash or file corruption.</summary>
+    <summary lang="es">Haz copia de seguridad de tu base de datos y configuración y recupera todo en caso de fallo.</summary>
+    <summary lang="es_MX">Respalda y restaura tu base de datos y archivos de configuración de XBMC dado el evento de un cuelgue o corrupción de archivos. </summary>
+    <summary lang="eu">XBMC datu-basea eta konfigurazio fitxategien babes-kopia egin kraskatze edo fitxategi hondamena saihesteko</summary>
+    <summary lang="fr">Sauvegarder et restaurer vos bases de données XBMC et vos fichiers de configuration en cas de crash ou de fichiers corrompus.</summary>
+    <summary lang="fr_CA">Sauvegarder et restaurer votre base de données et vos fichiers de configuration XBMC dans le cas d'un plantage ou d'une corruption de fichier.</summary>
+    <summary lang="gl">Crear copia de seguranza e restaurar a base de datos e ficheiros de configuración de XBMC no caso dun fallo ou corrupción de ficheiros.</summary>
+    <summary lang="he">גיבוי ושחזור מסד הנתונים וקבצי ההגדרות של XBMC במקרה של קריסה או קבצים פגומים.</summary>
+    <summary lang="hr">Sigurnosno kopirajte i obnovite vašu XBMC bazu podataka i datoteke podešavanja prilikom rušenja ili oštećenja datoteka.</summary>
+    <summary lang="hu">Biztonsági mentés készítése az XBMC adatbázisról és a beállítófájlokról vagy állítsa helyre azokat egy rendszerösszeomlás vagy adatvesztés után.</summary>
+    <summary lang="id">Cadangkan dan kembalikan basis data XBMC Anda beserta berkas konfigurasi apabila terjadi kerusakan atau korupsi berkas.</summary>
+    <summary lang="it">Effettua il backup o ripristina il tuo database di XBMC e i file di configurazione qualora si verifichi una chiusura imprevista o un danneggiamento dei file.</summary>
+    <summary lang="ja">システムのクラッシュやファイル破損に備えて、XBMC のデータベースや設定ファイルをバックアップ・リストアできます。</summary>
+    <summary lang="ko">XBMC 데이터베이스와 설정 파일을 백업하고 복구합니다.</summary>
+    <summary lang="lt">Atsarginė kopija katra atkuria jūsų XBMC duomenų bazę ir konfigūracijos failus avarijos ar failo sugadinimo metu.</summary>
+    <summary lang="nl">Back-up en herstel je XBMC database en configuratiebestanden in geval van een crash of bestandscorruptie.</summary>
+    <summary lang="no">Sikkerhetskopier og gjenopprett dine XBMC-databaser og -konfigurasjonsfiler i tilfelle et krasj eller filkorrupsjon.</summary>
+    <summary lang="pl">Stwórz kopię bezpieczeństwa oraz przywróć twoją bazę danych XBMC łącznie z plikami konfiguracyjnymi, w przypadku awarii lub uszkodzenia plików.</summary>
+    <summary lang="pt">Crie cópias de segurança da base de dados do XBMC e dos ficheiros de configuração. Pode restaurar o conteúdo se ocorrer um crash ou corrupção de ficheiros.</summary>
+    <summary lang="pt_BR">Faça backup e restaure o banco de dados do XBMC e seus arquivos de configuração, no caso de falha ou corrupção de arquivo.</summary>
+    <summary lang="ru">Сохраняйте и восстанавливайте базу данных и конфигурационные файлы XBMC, чтоб не допустить потерю данных в случае аварии или повреждений файлов.</summary>
+    <summary lang="sk">Zálohovanie a obnova XBMC databázy a konfiguračných súborov pre prípad havárie alebo poškodenia súboru.</summary>
+    <summary lang="sv">Ta backupp av eller återställ din XBMC-databas och konfigurationsfiler i händelse av en krash eller filkorruption.</summary>
+    <summary lang="zh">备份和恢复 XBMC 数据库和配置文件，以防范系统崩溃或文件损坏问题。</summary>
+    <description lang="ar">أسبق لك ان أضعت تخصيصاتك المفضله ورغبت لو كان بإمكانك نسخهم إحتياطياً ؟ اﻷن بات بإمكانك ذلك. يمكنك إستخراج قاعده بياناتك وقوائم التشغيل والملحقات وتخصيصاتك المفضله وغيره الى اى مصدر خارجى قابل للكتابه من قِبَل إكس بى إم سى او مباشرتاً الى نظام تخزين سحابى. يمكنك تفعيل النسخ اﻹحتياطى عند الحاجه او جدولته مُسبقاً</description>
+    <description lang="be">Ever hosed your XBMC configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
+    <description lang="bg">Някога да сте губили всички настройки, които сте правили по XBMC? А разполагахте ли с резервно копие? Е сега можете да създавате резервни копия само с едно кликване. Можете да изнасяте базата от данни, плейлистите, миниатюрите, добавките и други, на всяко място до което XBMC има права за писане или директно в Dropbox. Можете да настроите и автоматично създаване на копия през определен интервал от време.</description>
+    <description lang="ca">Alguna vegada s'ha carregat la seva configuració de l'XBMC i ha desitjat tenir una còpia de seguretat? Ara pot fer-ho amb un simple clic. Pot exportar la seva base de dades, llista de reproducció, miniatures, complements i altres detalls de la configuració a qualsevol font que pugui ser escrita per l'XBMC o directament a l'emmagatzematge en el núvol Dropbox. Les còpies de seguretat es poden executar sota demanda o per mitjà d'un planificador.</description>
+    <description lang="da">Har du prøvet at slette din XBMC opsætning, og ønsket at du havde haft sikkerhedskopi? Nu kan du få det med et enkelt klik. Du kan eksportere din database, afspilninglister, miniaturebilleder, addons og andre opsætningsdetaljer til enhver kilde, som er skrivbar for XBMC eller direkt til Dropbox cloud lager. Sikkerhedskopier kan køres manuelt eller via en tidsplan.</description>
+    <description lang="de">Jemals deine XBMC Konfiguration zerschossen und dir dann gewünscht, dass ein Backup existiert? Jetzt kannst du eine Sicherung mit nur einem Klick erzeugen. Du kannst deine Datenbanen, Playlisten, Thumbnails, Addons und andere Details zu einem Ort deiner Wahl sichern.</description>
+    <description lang="el">Σας έτυχε ποτέ να χάσετε τις ρυθμίσεις του XBMC και να εύχεστε να είχατε αντίγραφο ασφαλείας; Πλέον μπορείτε με ένα απλό κλικ. Μπορείτε να εξάγετε τη βάση δεδομένων, τις λίστες αναπαραγωγής, τις μικρογραφίες, τα πρόσθετα και άλλες λεπτομέρειες της εγκατάστασης σε οποιαδήποτε πηγή στην οποία μπορεί να γράψει το XBMC, ή απευθείας στο λογαριασμό σας στο Dropbox. Τα αντίγραφα μπορούν να γίνονται κατ' επιλογή ή μέσω προγραμματισμού.</description>
+    <description lang="en">Ever hosed your Kodi configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
+    <description lang="en_NZ">Ever hosed your XBMC configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by XBMC or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
+    <description lang="en_US">Ever hosed your XBMC configuration and wished you'd had a backup? Now you can with one easy click. You can export your database, playlist, thumbnails, addons and other configuration details to any source writeable by Kodi or directly to Dropbox cloud storage. Backups can be run on demand or via a scheduler. </description>
+    <description lang="es">¿Alguna vez te has cargado la configuración de XBMC y habrías deseado tener una copia de seguridad? Ahora puedes tenerla con un único click. Exporta tus base de datos, listas de reproducción, miniaturas, addons y resto de configuraciones a cualquier fuente accesible por XBMC o a tu almacenamiento en Dropbox. Las copias de seguridad pueden programarse o realizarse bajo demanda.</description>
+    <description lang="es_MX">¿Alguna vez haz echado a perder tu configuración de XBMC y haz deseado tener un respaldo? Ahora puedes tenerlo con un simple click. Puedes exportar tu base de datos, listas de reproducción, miniaturas, addons y otros detalles de configuración correspondientes a cualquier fuente que pueda escribir XBMC. Los respaldos pueden ser efectuados a pedido o mediante una programación temporal</description>
+    <description lang="fr">Avez-vous déjà perdu votre configuration XBMC et espéré avoir fait une sauvegarde ? Maintenant, vous pouvez le faire en un simple click. Vous pouvez exporter vos bases de données, playlists, miniatures, addons et autres fichiers de configuration vers n'importe quel endroit accessible depuis XBMC.</description>
+    <description lang="fr_CA">Avez-vous déjà ruiné votre configuration XBMC et souhaité avoir une sauvegarde? Vous le pouvez maintenant en un seul clic. Vous pouvez exporter vos base de données, liste de lecture, imagettes, addiciels et autres détails de configurations vers n'importe quelle source inscriptible depuis XBMC ou directement vers le stockage en nuage Dropbox. Les sauvegardes peuvent être exécutées sur demande ou à l'aide d'un ordonnanceur.</description>
+    <description lang="gl">De seguro que algunha vez eliminou a configuración do XBMC e desexou ter unha copia de seguranza?. Agora pode cun só clic. Pode exportar a súa base de datos, listaxes de reprodución, miniaturas, complementos e outros detalles da configuración a calquera medio escribíbel ou directamente ao Dropbox. As copias de seguranza pódense executar baixo demanda ou programadas.</description>
+    <description lang="he">האם אי פעם נפגמו הגדרות XBMC וייחלת שהיה לך גיבוי ? כעת אתה יכול ליצור כזה בלחיצת כפתור קלילה. ניתן לייצא את בסיס הנתונים, רשימות ההשמעה, התמונות הממוזערות, הרחבות והגדרות נוספות לכל יעד שיש ל-XBMC הרשאת כתיבה לו או ישירות לשירות אחסון הענן דרופבוקס. ניתן לתזמן מראש גיבויים או להריצם ידנית.</description>
+    <description lang="hr">Jeste li ikada oštetili vaša XBMC podešavanja i poželjeli ste ih obnoviti iz sigurnosne kopije? Sada to možete jednim klikom. Možete izvesti vašu bazu podataka, popis izvođenja, minijature, dodatke i ostale pojedinosti podešavanja na svaki izvor dostupan XBMC-u ili izravno na Dropbox oblak pohrane. Sigurnosno kopiranje se može pokrenuti na zahtjev ili u planiranom vremenu.</description>
+    <description lang="hu">Sikerült már összekutyulni az XBMC beállításait és jó lett volna egy biztonsági mentés? Most megteheti egy kattintással. Exportálhatja az adatbázisait, lejátszáslistáit, könyvjelzőit, kiegészítőit és egyéb beállításokat bármely, az XBMC által írható tárhelyre vagy közvetlenül a Dropbox felhő tárolóba. A mentések kézzel vagy időzítetten indíthatóak.</description>
+    <description lang="id">Pernah membuat berantakan konfigurasi XBMC Anda dan berharap Anda punya cadangannya? Sekarang Anda dapat melakukannya dengan klik mudah. Anda dapat mengekspor basis data, daftar putar, gambar kecil, addon dan rincian konfigurasi lainnya ke sumber mana saja yang dapat ditulis oleh XBMC atau langsung ke penyimpanan awan Dropbox. Pencadangan dapat dijalankan sesuai permintaan atau terjadwal.</description>
+    <description lang="it">Hai mai distrutto la tua configurazione di XBMC ma non ne avevi una copia di backup? Ora puoi farlo con un semplice click. Puoi esportare il tuo database, le playlist, le anteprime, gli add-on ed altre configurazioni su ogni percorso accessibile da XBMC o direttamente su Dropbox. I backup si possono fare a richiesta o possono essere pianificati.</description>
+    <description lang="ja">XBMCの設定が消えてしまい、バックアップをとっておけば... と思ったことはありますか？これからは1クリックで簡単にバックアップできます。データベース、プレイリスト、サムネール、アドオン、その他設定項目を、XBMC が書き込み可能なメディアに書き出せます。Dropbox クラウドストレージにも直接書き出せます。スケジューラによる自動バックアップと、オンデマンドでのバックアップの両方が使えます。</description>
+    <description lang="ko">XBMC 설정 백업본이 있었으면 하고 원했던 적이 있습니까? 이제 한 번의 클릭으로 가능합니다. 데이터베이스, 재생목록, 썸네일, 애드온과 기타  세부 설정을 어디에나 내보내거나 직접 Dropbox 에  저장할 수 있습니다. 백업은 수동 또는 예약으로 실행할 수 있습니다.</description>
+    <description lang="lt">Kada naujinate ir konfiguruojate savo XBMC ar susimastėte, kad jums reikalinga atsarginė kopija? Dabar galite tai atlikti vienu spustelėjimu. Savo duomenų bazes, atkūrimą, miniatiūras, priedus ir kitas konfigūracijos failus galite eksportuoti iš bet kokio šaltinio. Atsarginė(-ės) kopija(-os) gali būti paleistos pareikalavus arba per tvarkaraštį.</description>
+    <description lang="nl">Ooit je XBMC configuratie verknalt en gewenst dat je een backup had? Nu kan dat met een simpele klik. Je kunt je bibliotheek, afspeellijsten, miniaturen, addons en andere configuratie optes exporteren naar elke bron die door XBMC beschrijfbaar is of direct naar een Dropbox cloud opslag. Backups kunnen op verzoek of via een rooster gedraaid worden.</description>
+    <description lang="no">Har du noen gang ødelagt XBMC-installasjonen din og ønsket at du hadde en sikkerhetskopi? Det kan du nå med et enkelt trykk. Du kan eksportere din database, spillelister, miniatyrer, utvidelser og andre konfigurasjonsdetaljer til enhver kilde som er tilgjengelig for XBMC eller til Dropbox. Du kan lage sikkerhetskopier ved behov eller med en timeplan.</description>
+    <description lang="pl">Straciłeś kiedyś swoją konfigurację XBMC i marzyłeś o kopii zapasowej? Teraz już możesz i to w prosty sposób. Możesz eksportować swoją bazę, listy odtwarzania, miniatury, wtyczki oraz wiele więcej do dowolnego źródła bezpośrednio z XBMC. Kopia bezpieczeństwa może być uruchomiona na żądanie lub wg harmonogramu.</description>
+    <description lang="pt">Já arruinou a sua configuração do XBMC e desejou ter feito uma cópia de segurança? Agora pode, com apenas um clique. Exporte a base de dados, listas de reprodução, miniaturas, add-ons e outras configurações para qualquer fonte acedível pelo XBMC. As cópias de segurança podem ser executadas manualmente ou por temporizador.</description>
+    <description lang="pt_BR">Sempre se preocupou com sua configuração do XBMC e desejou ter um backup? Agora você pode com um simples clique. Você pode exportar seu banco de dados, listas de reprodução, miniaturas, addons e outros detalhes de configuração para qualquer fonte gravável pelo XBMC ou diretamente ao armazenamento na nuvem Dropbox. Os backups podem ser executados sob demanda ou por agendamento.</description>
+    <description lang="ru">Хотите получить резервную копию настроек XBMC? Теперь можете это сделать одним щелчком мыши. Вы можете выгрузить вашу базу данных, плейлисты, эскизы, дополнения и другую нужную Вам информацию и сохранить её с помощью XBMC или выгрузить в облачное хранилище Dropbox. Резервную копию можно сделать по требованию или запускать по расписанию.</description>
+    <description lang="sk">Už ste niekedy poškodili konfiguráciu XBMC a priali si mať zálohu? Teraz môžete - na jeden klik. Môžete exportovať Vašu databázu, playlist, náhľady, doplnky a konfigurácie na ktorýkoľvek zdroj zapisovateľný XBMC. Zálohy môžu byť púšťané na požiadanie alebo plánovačom. </description>
+    <description lang="sv">Har du någonsin tappat bort din XBMC konfiguration och önskat att du hade en backup? Nu kan du enkelt med ett klick. Du kan exportera din databas, spellista, minityrer, tillägg och andra konfigurationsdetaljer till valfri källa som är skrivbar för XBMC. Backupper kan köras på begäran eller via scheman.</description>
+    <description lang="zh">你是否经常折腾你的 XBMC，因而希望能够有个备份？你可以把资料库、播放列表、缩略图、插件和其他配置细节导出到 XBMC 可以写入的任意位置。备份可以按需运行或通过计划任务执行。</description>
+    <language></language>
+    <platform>all</platform>
+    <license>The MIT License</license>
+    <forum>http://forum.xbmc.org/showthread.php?tid=129499</forum>
+    <source>https://github.com/robweber/xbmcbackup</source>
+  </extension>
+</addon>
+
+<addon id="service.xbmc.versioncheck"
+       name="Version Check"
+      version="0.3.26"
+      provider-name="Team Kodi">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="login"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="be">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="bg">Проверява дали ползвате най-новата версия на Kodi.</summary>
+        <summary lang="ca">Kodi Version Check comprova si està utilitzant la última versió publicada.</summary>
+        <summary lang="cs">Kontrola verze Kodi, zkontroluje, zda používáte nejnovější vydanou verzi.</summary>
+        <summary lang="da">Kodi undersøger om du benytter den nyeste version.</summary>
+        <summary lang="de">Kodi Versionsprüfung prüft, ob die neuste Version von Kodi installiert ist.</summary>
+        <summary lang="el">Ο Έλεγχος Έκδοσης Kodi εξετάζει αν έχετε την πιο πρόσφατη έκδοση του προγράμματος.</summary>
+        <summary lang="en">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="en_NZ">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="en_US">Kodi Version Check checks if you are running latest released version.</summary>
+        <summary lang="es">Kodi Version Check comprueba si está ejecutando la última versión de Kodi.</summary>
+        <summary lang="es_MX">Comprobador de Version de Kodi  comprueba si se esta ejecutando ultima version publicada.</summary>
+        <summary lang="fi">Kodi Version Check tarkistaa onko käyttämäsi uusin versio.</summary>
+        <summary lang="fr">Le contrôle de version de Kodi vérifie si la dernière version sortie est utilisée.</summary>
+        <summary lang="fr_CA">Le contrôleur de version Kodi vérifie si vous utilisez la dernière version parue.</summary>
+        <summary lang="gl">Kodi Version Check verifica se está a executar a última versión.</summary>
+        <summary lang="he">בודק גרסת Kodi מוודא אם אתה מריץ את הגרסה הרשמית האחרונה.</summary>
+        <summary lang="hr">Kodi provjeritelj inačice provjerava imate li posljednju inačicu izdanja.</summary>
+        <summary lang="hu">Az Kodi verzió ellenőrző megvizsgálja, hogy a legújabb kiadást futtatja-e.</summary>
+        <summary lang="id">Kodi Version Check mengecek apakah Anda menggunakan versi rilis terbaru.</summary>
+        <summary lang="is">Kodi Version Check athugar hvort þú sért að keyra nýjustu viðurkennda útgáfu.</summary>
+        <summary lang="it">Kodi Version Check verifica se hai l'ultima versione rilasciata</summary>
+        <summary lang="ko">Kodi Version Checks는 최신 정식 릴리즈 버전을 사용중인지 검사해줍니다.</summary>
+        <summary lang="lt">Kodi Version Check patikrina ar naudojate naujausią versiją.</summary>
+        <summary lang="nl">Kodi versie-check controleert of je de laatst beschikbare versie hebt.</summary>
+        <summary lang="no">Kodi Versjonsettersyn sjekker om du kjører den sist utgitte versjonen.</summary>
+        <summary lang="pl">Dodatek Version Check sprawdza czy używasz najnowszej wersji Kodi.</summary>
+        <summary lang="pt">O Kodi Version Check verifica se a sua versão de lançamento do Kodi está actualizada.</summary>
+        <summary lang="pt_BR">Kodi Version Check verifica se você está executando a versão mais recente.</summary>
+        <summary lang="ro">Verificare versiune Kodi verifică dacă folosiți ultima versiune lansată.</summary>
+        <summary lang="ru">Kodi Version Check проверяет если вы используете последнюю версию</summary>
+        <summary lang="sk">Kodi Kontrola verzií overuje, či používate najnovšiu vydanú verziu.</summary>
+        <summary lang="sl">Preverjanje različice Kodi preveri, če imate nameščeno nazadnje izdano različico.</summary>
+        <summary lang="sv">Kodi Version Check kontrollerar om du använder den senaste versionen.</summary>
+        <summary lang="tr">Kodi Sürüm Kontrol yayınlanmış son sürümü kullanıp kullanmadığınızı kontrol eder.</summary>
+        <summary lang="zh">Kodi 版本检查检查你使用的是否为最新发布的版本。</summary>
+        <description lang="be">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="bg">Kodi Version Check поддържа няколко платформи/дистрибуции. За повече информация посетете страницата www.kodi.tv</description>
+        <description lang="ca">Kodi Version Check només és compatible amb una sèrie de plataformes / distribucions ja que les ultimes versions poden ser diferents entre elles. Per obtenir més informació, visiteu el lloc web kodi.tv.</description>
+        <description lang="cs">Kontrola verze Kodi podporuje pouze několik platforem/distribucí a verze mezi nimi se můžou lišit. Pro více informací navštivte webové stránky kodi.tv.</description>
+        <description lang="da">Kodi kan kun undersøge for opdateringer for visse platforme/udgaver, da der kan være forskel. For mere information, besøg kodi.tv.</description>
+        <description lang="de">Kodi Versionsprüfung unterstützt nur ein paar Plattformen/Distributionen, da sich die jeweiligen Veröffentlichungen unterscheiden können. Für weitere Informationen besuchen Sie die kodi.tv-Webseite.</description>
+        <description lang="el">Ο Έλεγχος Έκδοσης Kodi υποστηρίζει μόνο ορισμένα λειτουργικά συστήματα/διανομές, καθώς οι εκδόσεις διαφέρουν για το καθένα. Για περισσότερες πληροφορίες επισκεφθείτε το kodi.tv</description>
+        <description lang="en">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="en_NZ">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="en_US">Kodi Version Check only supports a number of platforms/distros as releases may differ between them. For more information visit the kodi.tv website.</description>
+        <description lang="es">Kodi Version Check solo soporta un número limitado de plataformas/distribuciones, ya que los lanzamientos pueden diferir entre ellos. Para más información, visite la web de kodi.tv.</description>
+        <description lang="fi">Kodi Version Check tukee vain joitain alustoja/distroja koska julkaisut saattavat poiketa toisistaan. Saadaksesi lisätietoa, vieraile kodi.tv:ssä.</description>
+        <description lang="fr">Le contrôle de version de Kodi ne prend en charge qu'un certain nombre de plate-formes/distributions car les versions peuvent varier entre elles. Pour plus d'informations, consulter le site Web kodi.tv.</description>
+        <description lang="fr_CA">Le contrôleur de version Kodi ne prend en charge qu'un certain nombre de plate-formes/distributions car les versions peuvent varier entre elles. Pour plus d'informations, visitez le site Web kodi.tv.</description>
+        <description lang="gl">Kodi Version Check só soporta un número limitado de plataformas/distribucións, xa que os lanzamentos poden diferir entre eles. Para máis información visitar o sitio web de kodi.tv.</description>
+        <description lang="he">בודק גרסת Kodi תומך רק במספר פלטפורמות/הפצות מאחר שסימון הגרסאות שונה בין אחת לשניה. למידע נוסף בקר באתר kodi.tv.</description>
+        <description lang="hr">Kodi provjeritelj inačice samo podržava broj platformi/distribucija koliko to dopuštaju pojedina izdanja. Za više informacija posjetite kodi.tv web stranicu.</description>
+        <description lang="hu">Az Kodi verzió-ellenőrző csak néhány platformot / disztribúciót támogat, mert a kiadások között különbségek lehetnek. További információkért keresse fel az kodi.tv oldalt.</description>
+        <description lang="id">Kodi Version Check hanya mendukung beberapa platform/distro karena rilisnya mungkin berbeda-beda. Untuk informasi lebih lanjut kunjungi situs kodi.tv.</description>
+        <description lang="it">Kodi Version Check supporta un numero di piattaforme e distribuzioni diverse tra loro. Per più informazioni visita il sito kodi.tv</description>
+        <description lang="ko">Kodi Versio Check는 일부 플랫폼/배포본만을 지원합니다. 자세한 정보는 kodi.tv 웹사이트에서 확인하세요</description>
+        <description lang="lt">Kodi Version Check palaiko tik kelias platformas/distribucijas, nes leidimai tarp jų gali skirtis. Norėdami gauti daugiau informacijos, apsilankykite Kodi.tv puslapyje.</description>
+        <description lang="nl">Kodi versie check ondersteunt alleen een aantal platforms/distro`s omdat uitgaven verschillen tussen hen. Voor meer informatie bezoek de kodi.tv website.</description>
+        <description lang="no">Kodi Versjonsettersyn støtter kun noen plattformer/distribusjoner fordi utgivelser kan være forskjellige mellom dem. Besøk kodi.tv for mer informasjon.</description>
+        <description lang="pl">Dodatek Version Check wspiera tylko część platform i dystrybucji. Więcej informacji na stronie kodi.tv</description>
+        <description lang="pt">O Kodi Version Check suporta apenas algumas plataformas/distribuições, porque os lançamentos podem não ser sempre idênticos. Para mais informação, visite o site kodi.tv.</description>
+        <description lang="pt_BR">Verificador de versões do Kodi somente suporta algumas plataformas/distros em que os lançamentos podem diferenciar entre si. Para maiores informações visite o website kodi.tv.</description>
+        <description lang="ru">Проверка новых версий Kodi поддерживается только на ряде платформ/дистрибутивов и они могут различаться между собой. Для получения доп. информации посетите сайт kodi.tv</description>
+        <description lang="sl">Preverjanje različice Kodi podpira le nekatere platforme/distribucije, saj se izdaje med njimi lahko zelo razlikujejo. Za več informacij obiščite spletišče kodi.tv</description>
+        <description lang="sv">Kodi Version Check stöder endeast ett antal plattformar/distributioner eftersom utgivningar kan skilja mellan dessa. För mer information besök kodi.tv webplatsen.</description>
+        <description lang="tr">Kodi Sürüm Kontrol sürümler arasında değişiklik olduğu için sadece birkaç platform/dağıtım destekler. Daha fazla bilgi için kodi.tv web sitesini ziyaret edin.</description>
+        <description lang="zh">Kodi 版本检查只支持部分平台/发行版，它们之间的版本可能会有所不同。欲了解更多信息，请访问 kodi.tv 网站。</description>
+        <disclaimer lang="be">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="bg">Ползвайте скрипта свободно. За повече информация посетете www.kodi.tv</disclaimer>
+        <disclaimer lang="ca">Sigues lliure d'utilitzar aquest script. Per més informació visita kodi.tv</disclaimer>
+        <disclaimer lang="cs">Neváhejte použít tento skript. Pro více informací navštivte kodi.tv</disclaimer>
+        <disclaimer lang="da">Du er velkommen til at bruge dette script. For information, besøg kodi.tv</disclaimer>
+        <disclaimer lang="de">Zögern Sie nicht, dieses Skript zu verwenden. Für Informationen besuchen Sie kodi.tv</disclaimer>
+        <disclaimer lang="el">Χρησιμοποιήστε αυτό το script ελεύθερα. Για πληροφορίες επισκεφθείτε το kodi.tv</disclaimer>
+        <disclaimer lang="en">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="en_NZ">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="en_US">Feel free to use this script. For information visit kodi.tv</disclaimer>
+        <disclaimer lang="es">Puede usar libremente este programa. Para más información, visite kodi.tv</disclaimer>
+        <disclaimer lang="es_MX">Sientase libre de utilizar este script. Para mas información visita kodi.tv</disclaimer>
+        <disclaimer lang="fr">Utiliser ce script si désiré. Pour plus d'informations, consulter le site kodi.tv</disclaimer>
+        <disclaimer lang="fr_CA">N'hésitez pas à utiliser ce script. Pour plus d'informations visitez kodi.tv</disclaimer>
+        <disclaimer lang="gl">Síntase libre de usar este script, para máis información visitar kodi.tv.</disclaimer>
+        <disclaimer lang="he">תרגיש חופשי להשתמש בסקריפט זה. למידע נוסף בקר ב-kodi.tv</disclaimer>
+        <disclaimer lang="hr">Slobodno koristite ovu skriptu. Za više informacija posjetite kodi.tv</disclaimer>
+        <disclaimer lang="hu">Használja bátran ezt a szkriptet! Információkért keresse fel az kodi.tv oldalt!</disclaimer>
+        <disclaimer lang="id">Jangan sungkan menggunakan script ini. Untuk informasi hubungi kodi.tv</disclaimer>
+        <disclaimer lang="it">Usa liberamente lo script. Per informazioni visita kodi.tv</disclaimer>
+        <disclaimer lang="ko">이 스크립트를 자유롭게 사용하세요. 관련 정보는 kodi.tv를 방문하세요.</disclaimer>
+        <disclaimer lang="lt">Galite laisvai naudoti šį scenarijų. Apsilankykite kodi.tv, norėdami gauti daugiau informacijos.</disclaimer>
+        <disclaimer lang="nl">Gebruik dit script vrijblijvend. Voor meer informatie bezoek kodi.tv</disclaimer>
+        <disclaimer lang="no">Du har fri tillatelse til å benytte dette skriptet. Besøk kodi.tv for informasjon</disclaimer>
+        <disclaimer lang="pl">Zapraszamy do używania tego dodatku. Więcej informacji na stronie kodi.tv</disclaimer>
+        <disclaimer lang="pt">Esteja à vontade para usar este script. Para mais informação, visite kodi.tv.</disclaimer>
+        <disclaimer lang="pt_BR">Sinta-se livre para usar este script. Para maiores informações visite kodi.tv</disclaimer>
+        <disclaimer lang="ro">Simțiți-vă liberi să folosiți acest script. Pentru informații vizitați kodi.tv</disclaimer>
+        <disclaimer lang="ru">Используйте этот скрипт на свое усмотрение. Для информации посетите kodi.tv</disclaimer>
+        <disclaimer lang="sl">Izvolite uporabiti ta skript. Za dodatne informacije obiščite kodi.tv</disclaimer>
+        <disclaimer lang="sv">Använd gärna detta skript. För information, besök kodi.tv</disclaimer>
+        <disclaimer lang="tr">Bu betiği kullanmaktan çekinmeyin. Daha fazla bilgi için kodi.tv adresini ziyaret edin</disclaimer>
+        <disclaimer lang="zh">可放心使用此脚本，更多信息访问 kodi.tv</disclaimer>
+        <platform>all</platform>
+        <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
+        <forum>http://forum.xbmc.org/showthread.php?tid=160228</forum>
+        <website>http://xbmc.org</website>
+        <email></email>
+        <source>https://github.com/XBMC-Addons/service.xbmc.versioncheck</source>
+    </extension>
+</addon>
+
+<addon
+    id="skin.confluence.exended.topics"
+    version="3.1.43.140"
+    name="[COLOR blue]Confluence Extended Topics[/COLOR]"
+    provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, plood">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
+        <import addon="script.skinshortcuts" version="1.0.10"/>
+        <import addon="script.skin.helper.service" version="1.0.10"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+        <import addon="script.skin.helper.widgets" version="1.0.10"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+    </requires>
+    <extension
+        point="xbmc.gui.skin"
+        debugging="false"
+        effectslowdown="1.0">
+        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+    </extension>
+	 <extension point="xbmc.python.pluginsource" library="skin_topics/update.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU General Public License version 2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/skin.confluence-extended.git</source>
+		<news>Updated language files</news>
+			<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.jpg</screenshot>
+			<screenshot>resources/screenshot001.jpg</screenshot>
+			<screenshot>resources/screenshot002.jpg</screenshot>
+			<screenshot>resources/screenshot003.jpg</screenshot>
+			<screenshot>resources/screenshot004.jpg</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon
+    id="skin.confluence.movie.V2.dark"
+    version="3.1.0.135"
+    name="[COLOR aqua]Confluence Movie.V2.dark[/COLOR]  (17)"
+    provider-name="Jezz_X, Team Kodi, YLLOW_DRAGON, Waller plood">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
+        <import addon="script.skinshortcuts" version="1.0.10"/>
+        <import addon="script.skin.helper.service" version="1.0.10"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+        <import addon="script.skin.helper.widgets" version="1.0.10"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+    </requires>
+    <extension
+        point="xbmc.gui.skin"
+        defaultthemename="Textures.xbt"
+        debugging="false"
+        effectslowdown="1.0">
+        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Skins - Anleitungen - Kodi [/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]Waller Skins on Jimdo[/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU General Public License version 2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/skin.confluence-extended.git</source>
+		<news>Backported some fixes</news>
+			<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.png</screenshot>
+			<screenshot>resources/screenshot001.png</screenshot>
+			<screenshot>resources/screenshot002.png</screenshot>
+			<screenshot>resources/screenshot003.png</screenshot>
+			<screenshot>resources/screenshot004.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon
+    id="skin.confluence.movie.V2.GOW"
+    version="3.1.0.135"
+    name="[COLOR aqua]Confluence Movie.V2.GOW[/COLOR]  (17)"
+    provider-name="Waller">
+    <requires>
+        <import addon="xbmc.gui" version="5.12.0"/>
+        <import addon="script.image.resource.select" version="1.1.0"/>
+        <import addon="script.skinshortcuts" version="1.0.10"/>
+        <import addon="script.skin.helper.service" version="1.0.10"/>
+        <import addon="script.skin.helper.skinbackup" version="1.0.10"/>
+        <import addon="script.skin.helper.widgets" version="1.0.10"/>
+        <import addon="script.skin.helper.backgrounds" version="1.0.10"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.0"/>
+    </requires>
+    <extension
+        point="xbmc.gui.skin"
+        defaultthemename="Textures.xbt"
+        debugging="false"
+        effectslowdown="1.0">
+        <res width="1280" height="720" aspect="16:9" default="true" folder="720p" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">[COLOR blue]Guidos Master SkinBase[/COLOR].</summary>
+	    <description lang="de_DE">[COLOR orange]The Biggest SkinBase off the World. [/COLOR]</description>
+        <platform>all</platform>
+        <license>GNU General Public License version 2</license>
+        <forum>http://forum.kodi.tv/forumdisplay.php?fid=125</forum>
+        <website></website>
+        <email>nkvoronov@gmail.com</email>
+        <source>https://github.com/nkvoronov/skin.confluence-extended.git</source>
+		<news>Backported some fixes</news>
+			<assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<screenshot>resources/screenshot000.png</screenshot>
+			<screenshot>resources/screenshot001.png</screenshot>
+			<screenshot>resources/screenshot002.png</screenshot>
+			<screenshot>resources/screenshot003.png</screenshot>
+			<screenshot>resources/screenshot004.png</screenshot>
+		</assets>
+	</extension>
+</addon>
+
+<addon id="superrepo.kodi.krypton.programs" name="SuperRepo Category Programs [Krypton][v7]" version="0.7.04" provider-name="Bart Otten">
+                <requires>
+                <import addon="xbmc.addon" version="12.0.0"/>
+                </requires>
+                <extension point="xbmc.addon.repository" name="SuperRepo Category Programs [Krypton][v7]">
+                <info compressed="false">
+                http://xml.superrepo.org/v7/.xml/krypton/categories/programs/addons.xml
+                </info>
+                <checksum>
+                http://md5.superrepo.org/v7/.md5/krypton/categories/programs/addons.xml.md5
+                </checksum>
+                <datadir zip="true">http://redirect.superrepo.org/v7/addons/</datadir>
+                <hashes>true</hashes>
+                </extension>
+                <extension point="xbmc.addon.metadata">
+                <summary>
+                Install add-ons from the SuperRepo Category Programs Repository
+                </summary>
+                <summary lang="nl">
+                Installeer add-ons uit de SuperRepo Category Programs Repository
+                </summary>
+                <summary lang="cz">Inštalácia add-ons zo SuperRepo Category Programs Repozitár</summary>
+                <summary lang="de">
+                Installation von Addons aus dem SuperRepo Category Programs Repository
+                </summary>
+                <summary lang="pt">Instale add-ons do SuperRepo Category Programs Repositório</summary>
+                <summary lang="br">Instale add-ons do SuperRepo Category Programs Repositório</summary>
+                <description>
+                Download and install add-ons for Kodi in the category "Programs" using SuperRepo.[CR][CR]By using SuperRepo repositories you will be able to take advantage of our serverside dependency checking, extensive file mirror service and many more.[CR]Visit our website at https://superrepo.org/ to browse the add-ons, create personal addon bundles and install whole bundles at once![CR][CR]
+                </description>
+                <description lang="nl">
+                Download and installeer add-ons voor Kodi in de categorie "Programs" via SuperRepo.[CR]Door SuperRepo te installeren kunt u profiteren van onze controle van add-ons en ons uitgebreide server netwerk. Bezoek onze website op https://superrepo.org om door de add-ons te bladeren, persoonlijke add-on bundels te maken en complete bundels in 1 keer te installeren![CR][CR]
+                </description>
+                <description lang="cz">
+                Preber a inštaluj add-ons do kategórie "Programs" z SuperRepo.org add-on repozitár.[CR][CR]Ak si našiel add-on ktorý je poškodený alebo nefunkčný, alebo chceš pridať nový add-on, potom prosím pozri na https://superrepo.org/[CR][CR]Repozitár je udržiavaný komunitou Kodi a za pomoci SuperRepo Wiki, a tento preberá add-ons z rôznych zdrojov. Vzhľadom na to, SuperRepo nenesie žiadnu zodpovednosť za služby poskytované týmito add-ons.[CR][CR]Rozšírený repozitár vyvinul Bart Otten[CR][CR]
+                </description>
+                <description lang="de">
+                Lade und installiere Addons der Kategorie "Programs" aus dem SuperRepo.org Addon Repository.[CR][CR]Möchtest du ein fehlerhaftes Addon melden oder ein neues Addon vorschlagen, kannst du dies über unsere Webseite http://superrepo.org tun.[CR][CR]Das Repository wird mit Hilfe des SuperRepo Wiki durch die Kodi Community gepflegt und durch unseren Generator aus mehreren Quellen zusammengestellt. Daher übernimmt SuperRepo keinerlei Verantwortung für diesen Service.[CR][CR]Der"eXtended Reposity Generator" wird durch Bart Otten entwickelt.[CR][CR]
+                </description>
+                <description lang="pt">
+                Baixe e instale o add-ons na categoria "Programs" do Repositório SuperRepo.org. [CR] [CR] Se você encontrar um add-on quebrado ou não funcionando, ou você gostaria de incluir um outro, por favor visite https://superrepo.org/ [CR] [CR]O repositório é mantida pela comunidade do Kodi usando o Wiki do SuperRepo e o nosso gerador de busca de add-ons múltiplas fontes. Portanto SuperRepo não aceita qualquer responsabilidade por esse serviço.[CR][CR]O Gerador Reposity eXtended é desenvolvido por Bart Otten[CR][CR]
+                </description>
+                <description lang="br">
+                Baixe e instale o add-ons na categoria "Programs" do Repositório SuperRepo.org. [CR] [CR] Se você encontrar um add-on quebrado ou não funcionando, ou você gostaria de incluir um outro, por favor visite https://superrepo.org/ [CR][CR]O repositório é mantida pela comunidade do Kodi usando o Wiki do SuperRepo e o nosso gerador de busca de add-ons múltiplas fontes. Portanto SuperRepo não aceita qualquer responsabilidade por esse serviço.[CR][CR]O Gerador Reposity eXtended é desenvolvido por Bart Otten[CR][CR]
+                </description>
+                <disclaimer>
+                The SuperRepo generator fetches addons from multiple sources. Therefore SuperRepo accepts no responsibility for included addons.[CR]
+                </disclaimer>
+                <disclaimer lang="nl">
+                De SuperRepo generator verzamelt addons van verschillende bronnen. Daarom accepteert SuperRepo geen enkele verantwoordelijkheid voor de ingevoegde addons.[CR]
+                </disclaimer>
+                <disclaimer lang="cz">
+                Repozitár je udržiavaný komunitou Kodi a za pomoci SuperRepo Wiki, a tento preberá addons z rôznych zdrojov. Vzhľadom na to, SuperRepo nenesie žiadnu zodpovednosť za služby poskytované týmito addons.[CR]
+                </disclaimer>
+                <disclaimer lang="de">
+                Das Repository wird durch die Kodi Community gepflegt und durch unseren Generator aus mehreren Quellen zusammengestellt. Daher übernimmt SuperRepo keinerlei Verantwortung für die enthaltenen Addons.[CR]
+                </disclaimer>
+                <disclaimer lang="pt">
+                O repositório é mantido pela comunidade comunidade do Kodi e o nosso gerador de busca de addons de múltiplas fontes. Portanto SuperRepo aceita não se responsabiliza por addons incluídos.[CR]
+                </disclaimer>
+                <disclaimer lang="br">
+                O repositório é mantido pela comunidade comunidade do Kodi e o nosso gerador de busca de addons de múltiplas fontes. Portanto SuperRepo aceita não se responsabiliza por addons incluídos.[CR]
+                </disclaimer>
+                <platform>all</platform>
+                <website>https://superrepo.org/</website>
+                </extension>
+                </addon>
+</addons>
