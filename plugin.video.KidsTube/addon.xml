@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.KidsTube"
+	name="[B][COLOR yellow]Kids[/COLOR][COLOR red]Tube[/COLOR][/B]"
+	version="1.0.1"
+	provider-name="SGK">
+  <requires>
+    <import addon="xbmc.python" version="2.14.0"/>
+    <import addon="script.module.addon.common" version="2.0.0"/>
+    <import addon="plugin.video.youtube" version="5.0.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">[COLOR yellow]Kids[/COLOR][COLOR red]Tube[/COLOR]</summary>
+    <description lang="de">
+[COLOR yellow]Kinder-Kanäle, Playlisten, Filme und Serien auf[/COLOR] [COLOR red]Youtube[/COLOR]
+[COLOR yellow]Source:[/COLOR]
+https://www.youtube.com/
+[COLOR yellow]Created by:[/COLOR]
+SGK
+[COLOR yellow]Support:[/COLOR]
+https://www.facebook.com/groups/kodiunlimited/</description>
+    <platform>all</platform>
+    <forum></forum>
+    <source></source>
+    <website></website>
+    <email></email>
+    <license></license>
+    <assets>
+        <icon>icon.png</icon>
+        <fanart>fanart.jpg</fanart>
+        <screenshot></screenshot>      
+    </assets>
+    <news></news>
+  </extension>
+</addon>
