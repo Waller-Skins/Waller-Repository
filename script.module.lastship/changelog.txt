@@ -1,3 +1,17 @@
+[B]1.0.6.2[/B]
+- Fix Foxx
+
+[B]1.0.6.1[/B]
+- Fix Streamdream TV-Shows
+
+[B]1.0.6[/B]
+- add streamdream Update
+- Update Personen Suche (Filme)
+- Add Option Automatisch Fortsetzen
+- Add Trakt Fortestzungspukt (Bookmarks Function), jedoch zur Zeit in Lastship deaktiviert
+- Add Trakt Angefangene/nicht beendete Episoden Kategorie
+- Add Funktion nur Premium Links (Bezahllinks) anzeigen
+
 [B]1.0.5[/B]
 - cinenator entfent
 - Update hdfilme
