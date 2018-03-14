@@ -2114,6 +2114,7 @@ Al momento sono supportate le seguenti emittenti:
     </extension>
 </addon>
 
+<<<<<<< HEAD
 <addon id="plugin.video.now_music" name="[COLOR blue]N[/COLOR]ow [COLOR red]M[/COLOR]usic"	version="2.1.2"	provider-name="Pulse Builds">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
@@ -2146,6 +2147,15 @@ Al momento sono supportate le seguenti emittenti:
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
+=======
+<addon id="repository.walle" name="Wallers-Skin-Repo" version="1.0.1" provider-name="[COLOR lime]Walle[/COLOR] | [COLOR aqua]Guido[/COLOR]">
+	<extension point="xbmc.addon.repository" name="Wallers REPO">
+	<dir>
+		<info compressed="false">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml</info>
+		<checksum>https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/addons.xml.md5</checksum>
+		<datadir zip="true">https://raw.githubusercontent.com/Waller-Skins/Waller-Repository/master/</datadir>
+	</dir>
+>>>>>>> c843819c7d4319a27479b051bda333cc0cc7b4f5
 	</extension>
 	<extension point="xbmc.service" library="service.py" start="startup" />
 	<extension point="xbmc.addon.metadata">
